@@ -36,8 +36,35 @@ export const handler = async (
     if (!actorResult.Item) {
       return response(404, { message: `Actor ${actorId} not found` });
     }
-    const actor = toActor(actorResult.Item);
-    return response(200, { data: actor });
+  const actor = toActor(actorResult.Item);
+
+    if (movieId === undefined) {
+      return response(200, {
+      data: actor,
+     });
+}
+const roleResult = await ddb.send(
+  new GetCommand({
+    TableName: tableName,
+    Key: {
+      PK: `m#${movieId}`,
+      SK: `a#${actorId}`,
+    },
+  })
+);
+
+return response(200, {
+  data: {
+    actor,
+    role: roleResult.Item
+      ? {
+          roleName: roleResult.Item.roleName,
+          roleDescription: roleResult.Item.roleDescription,
+        }
+      : null,
+  },
+});
+
   } catch (err) {
     console.error("DynamoDB error:", err);
     return response(500, { message: "Internal server error", error: err });

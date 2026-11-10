@@ -780,6 +780,14 @@
           {}
         ]
       }
+    },
+    {
+      "type": "aws:cdk:analytics:method",
+      "data": {
+        "addToLogicalId": [
+          {}
+        ]
+      }
     }
   ],
   "/AppApiStack/AppApi/DeploymentStage.dev": [
@@ -1129,7 +1137,7 @@
   "/AppApiStack/AppApi/Deployment/Resource": [
     {
       "type": "aws:cdk:logicalId",
-      "data": "AppApiDeployment7658F31367171e75ea52042e0347753715c9fcc4"
+      "data": "AppApiDeployment7658F313568da258b9ccf36d9dd0815e7d5fc830"
     },
     {
       "type": "aws:cdk:creationStack",
@@ -1595,7 +1603,10 @@
         "resource": "*",
         "httpMethod": "*",
         "integration": "*",
-        "options": "*"
+        "options": {
+          "authorizer": "*",
+          "authorizationType": "*"
+        }
       }
     }
   ],

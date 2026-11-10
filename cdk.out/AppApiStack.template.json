@@ -250,7 +250,7 @@
     ],
     "Code": {
      "S3Bucket": "cdk-hnb659fds-assets-449314788202-eu-west-1",
-     "S3Key": "b9bc2c91017fd7f9457917038a95783d8ba540c57ead0ff5c4e85acc4a0e9c2a.zip"
+     "S3Key": "088cd26b31fdf92ae1528dfe3295bfc20241ecb15f0e7aea8ed10007eaae7166.zip"
     },
     "Environment": {
      "Variables": {
@@ -277,7 +277,7 @@
    ],
    "Metadata": {
     "aws:cdk:path": "AppApiStack/GetActorFn/Resource",
-    "aws:asset:path": "asset.b9bc2c91017fd7f9457917038a95783d8ba540c57ead0ff5c4e85acc4a0e9c2a",
+    "aws:asset:path": "asset.088cd26b31fdf92ae1528dfe3295bfc20241ecb15f0e7aea8ed10007eaae7166",
     "aws:asset:is-bundled": true,
     "aws:asset:property": "Code"
    }
@@ -762,7 +762,7 @@
     "aws:cdk:path": "AppApiStack/AppApi/Resource"
    }
   },
-  "AppApiDeployment7658F31367171e75ea52042e0347753715c9fcc4": {
+  "AppApiDeployment7658F313568da258b9ccf36d9dd0815e7d5fc830": {
    "Type": "AWS::ApiGateway::Deployment",
    "Properties": {
     "Description": "Movie cast API",
@@ -795,7 +795,7 @@
    "Type": "AWS::ApiGateway::Stage",
    "Properties": {
     "DeploymentId": {
-     "Ref": "AppApiDeployment7658F31367171e75ea52042e0347753715c9fcc4"
+     "Ref": "AppApiDeployment7658F313568da258b9ccf36d9dd0815e7d5fc830"
     },
     "RestApiId": {
      "Ref": "AppApiE7BADA01"
@@ -1100,7 +1100,10 @@
   "AppApimoviesmovieIDrolesGETF9EC7DE9": {
    "Type": "AWS::ApiGateway::Method",
    "Properties": {
-    "AuthorizationType": "NONE",
+    "AuthorizationType": "CUSTOM",
+    "AuthorizerId": {
+     "Ref": "UserAuthorizerF623B8DE"
+    },
     "HttpMethod": "GET",
     "Integration": {
      "IntegrationHttpMethod": "POST",
@@ -1356,7 +1359,7 @@
   "CDKMetadata": {
    "Type": "AWS::CDK::Metadata",
    "Properties": {
-    "Analytics": "v2:deflate64:H4sIAAAAAAAA/+1Y3W/bNhD/W8rHgtFa92GY3xxvy4KmiWEbezGM4CyeZSYUqfEjgSrofx9IkZLdxkELNF1XGEgg8+54Hz/eHU8aZaNfR9mbV/BoznJ2fyb4JmsWFvJ7Co/mtmG1hFKxTdYsYSPw79GqIRVoyy1X8j3WZNwQCSWSMXlNKLF15X8uSEuJUdo+L7HhQnBZRI7GUj2AmCnB85qMCUNjtapJu6bTrbwQagMiONFSAeWGwa1UDO9Mdh0efzqZe6dWDQGd77jF3DqdzGonLe+dQGl1nRziJSpn46rEUul6wT8Oog9cK1miTCK5Yom5A8kE6rBqadP9vaj5l9Z/Cu/nDu97BLmmHMqsmSuBvhiNcSWy89AIKs1lzisQkzxXrve6k/EbJqGGo8+kBAkFstASOBoyXjUHtHqio+w6RMXYUs2SidRIVk3kWgv57lIKLrHnkdfkC5jP6z0F+O0C/DlNHcU+XG1eP+3ontpvWCrP+ewMPycztrBg0Veg2Tu2p8gvrb8hZo+WWt4RBV/uRcCpg6il5t0tGIPWZBP/oOZddu7ye7TnYDAg+Mn/Og4MWTPdyjQnBI2oS26MXy24LARaJffmCOc4i5nQKZg5XSmDxzrhYaPUwf9utyoutHJVXG6jiethLHqo8uHXwm0kRvyOtvTDjh1h/oAWGFjocKNWO1w/zYqw7kX7Q4WzbqlQhcmaq2hr1fRmezs+sm9ODKmWrLYUKl6AxUeos2aO/zg0duLsTmn+EXVITi8/kOjcS1R81fgBNte86huHvypZpbi0y7oKXYPM/7i4vLmeXJE1JQwroeqbIG98UzIWCtzzljDcghN2qrSZadwKXuzsnjwIoR7/QmCoE9iB9AHtTrED0lQjQ2k5CEPGPksi/UbzgstYubE7dfHQ34N7voSfDA0q3s/xFrgcxA/6wFJdqYLnIC7ZQSc50b+WHg5nQJkufLaEo0mkeB6fpFHYF4R9qiqnc0x9c027VFk1REdWqlRrq44XCVxaLDTsJYDaS8S+Gg5Xl2l3IoX9y+6NMGQ4VPw91r7OuEZGxlsQBo/J+w7sXZqjqZQ08R72948z06HL6MiegYYSbSqOdt0OnXFPy9cqoSewTmCdwPp/gxUvqBPcp9z8wcF6Dpzubu/09pd798F2GAcqsLsZ6OGD1H/CTaNlcLFtaXiT81MJlwXNnbGqvE2YmWzyaKaBlnbQw2U/hw/8rbxxtnK2pf4rcXZnfnkYjbK3v2VvXt0Zzs/i20Y2757/AilU53YIFwAA"
+    "Analytics": "v2:deflate64:H4sIAAAAAAAA/+1YS2/jNhD+LcvjglG33kNR3xy3TYPNJoZt9GIYwVgcy0woUuUjgVbQfy9IkZK9GwdbIOkjMGBD4sxwXpz5NNIoG/00yj68g0dzlrP7M8E3WbOwkN9TeDS3DasllIptsmYJG4F/jFYNqUBbbrmSn7Am44ZIKJGMyXtCia0rf7sgLSVGafu8xIYLwWURORpL9QBipgTPazImDI3Vqibtmk638kKoDYjgREsFlBsGt1IxvDPZdbj85mTunVo1BHS+4xZz63Qyq520vHcCpdV1coiXqJyNqxJLpesF/zKIPnCtZIkyieSKJeYOJBOow6qlTfd7VfOvrf8U3tsO758Ick05lFkzVwJ9MxrjSmTnAQgqzWXOKxCTPFeu97qT8RsmoYejz6QECQWyAAkcDRmvmgNaPdFRdh2iYmypZslEApJVE7nWQr67lIJL7HnkPfkO5vN6TwG+XIBv09TR3IdHm9dPO7qn9huWynO+OcNvyYwtLFj0HWj2ju0p8mvrb4jZoyXIO6Lg+70IeepS1FLz8RaMQWuyib9Q8zE7d/k92nMwGDL41X8dB4asmW5lmhOCRtQlN8avFlwWAq2Se3OEc5zFSugUzJyulMFjSHgIlDr43+1WxYVWrorLbTRxPYxFD1U+3C3cRmLM31FIP0TsmObPaIGBhS5v1GqH66dZMa170f6nwlm3VKjCZM1VtLVqerO9HR/ZixNDqSWrLYWKF2DxEeqsmeOfDo2dOLtTmn9BHYrTyw8kOvcSFV81foDNNa964PCPSlYpLu2yrgJqkPmvF5c315MrsqaEYSVUfRPkjQclY6HAPW8Jwy04YadKm5nGreDFzu7JgxDq8XcEhjolO5A+o90pdkCaamQoLQdhyNhXSaTfaF5wGTs3olMXD/0luOdb+MnQoOL9HG+By0H8AAeW6koVPAdxyQ6Q5ER/KXo4tCH7dOGrKBxZIsVz+qq8wr4g7EtYOZ1jwtM17Upo1RAdWamDra06XiRwabHQsFcYaq9A+y45XF2m3YkU9i+7N8VQ+VDxT1j7/uMaGRlvQRg8Ju+R2bs0R1MpaeLz2T+XnJkO6KMjewYaSrSpadp1OyDmnpa/q4SeknVK1ilZbylZzyXndCqnEv4fJOvZEg4jQKe3nwG6773D1FCB3c1AD9+z/hVumkyDi21Lw4ugH164LGjujFXlbcqZySaPZhpoaQc9XPZj/MDfyhtnK2db6j8yZ3fmh4fRKPvx5+zDuzvD+Vl8Wcnm3fUvD963eUcXAAA="
    },
    "Metadata": {
     "aws:cdk:path": "AppApiStack/CDKMetadata/Default"
