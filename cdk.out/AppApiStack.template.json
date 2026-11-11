@@ -338,6 +338,48 @@
     "aws:cdk:path": "AppApiStack/AddMovieRoleFn/ServiceRole/Resource"
    }
   },
+  "AddMovieRoleFnServiceRoleDefaultPolicyD4C826A2": {
+   "Type": "AWS::IAM::Policy",
+   "Properties": {
+    "PolicyDocument": {
+     "Statement": [
+      {
+       "Action": [
+        "dynamodb:BatchGetItem",
+        "dynamodb:BatchWriteItem",
+        "dynamodb:ConditionCheckItem",
+        "dynamodb:DeleteItem",
+        "dynamodb:DescribeTable",
+        "dynamodb:GetItem",
+        "dynamodb:GetRecords",
+        "dynamodb:GetShardIterator",
+        "dynamodb:PutItem",
+        "dynamodb:Query",
+        "dynamodb:Scan",
+        "dynamodb:UpdateItem"
+       ],
+       "Effect": "Allow",
+       "Resource": {
+        "Fn::GetAtt": [
+         "MovieCastTableE4F7E4C8",
+         "Arn"
+        ]
+       }
+      }
+     ],
+     "Version": "2012-10-17"
+    },
+    "PolicyName": "AddMovieRoleFnServiceRoleDefaultPolicyD4C826A2",
+    "Roles": [
+     {
+      "Ref": "AddMovieRoleFnServiceRole603352EE"
+     }
+    ]
+   },
+   "Metadata": {
+    "aws:cdk:path": "AppApiStack/AddMovieRoleFn/ServiceRole/DefaultPolicy/Resource"
+   }
+  },
   "AddMovieRoleFn1FA4595B": {
    "Type": "AWS::Lambda::Function",
    "Properties": {
@@ -368,6 +410,7 @@
     "Timeout": 10
    },
    "DependsOn": [
+    "AddMovieRoleFnServiceRoleDefaultPolicyD4C826A2",
     "AddMovieRoleFnServiceRole603352EE"
    ],
    "Metadata": {
@@ -762,7 +805,7 @@
     "aws:cdk:path": "AppApiStack/AppApi/Resource"
    }
   },
-  "AppApiDeployment7658F313568da258b9ccf36d9dd0815e7d5fc830": {
+  "AppApiDeployment7658F31317af28f6a9383ccc2f4c222f2a416436": {
    "Type": "AWS::ApiGateway::Deployment",
    "Properties": {
     "Description": "Movie cast API",
@@ -783,6 +826,9 @@
     "AppApimoviesmovieIDrolesA6C7804C",
     "AppApimoviesOPTIONSE1BEAF46",
     "AppApimovies1775F38D",
+    "AppApimoviesrolesOPTIONSEF54D4A3",
+    "AppApimoviesrolesPOST97E4CE12",
+    "AppApimoviesroles54280EEE",
     "AppApiOPTIONS26B60D0C",
     "UserAuthorizerF623B8DE"
    ],
@@ -795,7 +841,7 @@
    "Type": "AWS::ApiGateway::Stage",
    "Properties": {
     "DeploymentId": {
-     "Ref": "AppApiDeployment7658F313568da258b9ccf36d9dd0815e7d5fc830"
+     "Ref": "AppApiDeployment7658F31317af28f6a9383ccc2f4c222f2a416436"
     },
     "RestApiId": {
      "Ref": "AppApiE7BADA01"
@@ -915,6 +961,164 @@
    },
    "Metadata": {
     "aws:cdk:path": "AppApiStack/AppApi/Default/movies/OPTIONS/Resource"
+   }
+  },
+  "AppApimoviesroles54280EEE": {
+   "Type": "AWS::ApiGateway::Resource",
+   "Properties": {
+    "ParentId": {
+     "Ref": "AppApimovies1775F38D"
+    },
+    "PathPart": "roles",
+    "RestApiId": {
+     "Ref": "AppApiE7BADA01"
+    }
+   },
+   "Metadata": {
+    "aws:cdk:path": "AppApiStack/AppApi/Default/movies/roles/Resource"
+   }
+  },
+  "AppApimoviesrolesOPTIONSEF54D4A3": {
+   "Type": "AWS::ApiGateway::Method",
+   "Properties": {
+    "ApiKeyRequired": false,
+    "AuthorizationType": "NONE",
+    "HttpMethod": "OPTIONS",
+    "Integration": {
+     "IntegrationResponses": [
+      {
+       "ResponseParameters": {
+        "method.response.header.Access-Control-Allow-Headers": "'Content-Type,X-Amz-Date,Authorization,X-Api-Key'",
+        "method.response.header.Access-Control-Allow-Origin": "'*'",
+        "method.response.header.Access-Control-Allow-Methods": "'OPTIONS,GET,POST,PUT,PATCH,DELETE'",
+        "method.response.header.Access-Control-Allow-Credentials": "'true'"
+       },
+       "StatusCode": "204"
+      }
+     ],
+     "RequestTemplates": {
+      "application/json": "{ statusCode: 200 }"
+     },
+     "Type": "MOCK"
+    },
+    "MethodResponses": [
+     {
+      "ResponseParameters": {
+       "method.response.header.Access-Control-Allow-Headers": true,
+       "method.response.header.Access-Control-Allow-Origin": true,
+       "method.response.header.Access-Control-Allow-Methods": true,
+       "method.response.header.Access-Control-Allow-Credentials": true
+      },
+      "StatusCode": "204"
+     }
+    ],
+    "ResourceId": {
+     "Ref": "AppApimoviesroles54280EEE"
+    },
+    "RestApiId": {
+     "Ref": "AppApiE7BADA01"
+    }
+   },
+   "Metadata": {
+    "aws:cdk:path": "AppApiStack/AppApi/Default/movies/roles/OPTIONS/Resource"
+   }
+  },
+  "AppApimoviesrolesPOSTApiPermissionAppApiStackAppApi3D3D54B8POSTmoviesrolesA02295E8": {
+   "Type": "AWS::Lambda::Permission",
+   "Properties": {
+    "Action": "lambda:InvokeFunction",
+    "FunctionName": {
+     "Fn::GetAtt": [
+      "AddMovieRoleFn1FA4595B",
+      "Arn"
+     ]
+    },
+    "Principal": "apigateway.amazonaws.com",
+    "SourceArn": {
+     "Fn::Join": [
+      "",
+      [
+       "arn:aws:execute-api:eu-west-1:449314788202:",
+       {
+        "Ref": "AppApiE7BADA01"
+       },
+       "/",
+       {
+        "Ref": "AppApiDeploymentStagedev6C133D41"
+       },
+       "/POST/movies/roles"
+      ]
+     ]
+    }
+   },
+   "Metadata": {
+    "aws:cdk:path": "AppApiStack/AppApi/Default/movies/roles/POST/ApiPermission.AppApiStackAppApi3D3D54B8.POST..movies.roles"
+   }
+  },
+  "AppApimoviesrolesPOSTApiPermissionTestAppApiStackAppApi3D3D54B8POSTmoviesroles197CD4FD": {
+   "Type": "AWS::Lambda::Permission",
+   "Properties": {
+    "Action": "lambda:InvokeFunction",
+    "FunctionName": {
+     "Fn::GetAtt": [
+      "AddMovieRoleFn1FA4595B",
+      "Arn"
+     ]
+    },
+    "Principal": "apigateway.amazonaws.com",
+    "SourceArn": {
+     "Fn::Join": [
+      "",
+      [
+       "arn:aws:execute-api:eu-west-1:449314788202:",
+       {
+        "Ref": "AppApiE7BADA01"
+       },
+       "/test-invoke-stage/POST/movies/roles"
+      ]
+     ]
+    }
+   },
+   "Metadata": {
+    "aws:cdk:path": "AppApiStack/AppApi/Default/movies/roles/POST/ApiPermission.Test.AppApiStackAppApi3D3D54B8.POST..movies.roles"
+   }
+  },
+  "AppApimoviesrolesPOST97E4CE12": {
+   "Type": "AWS::ApiGateway::Method",
+   "Properties": {
+    "AuthorizationType": "CUSTOM",
+    "AuthorizerId": {
+     "Ref": "UserAuthorizerF623B8DE"
+    },
+    "HttpMethod": "POST",
+    "Integration": {
+     "IntegrationHttpMethod": "POST",
+     "Type": "AWS_PROXY",
+     "Uri": {
+      "Fn::Join": [
+       "",
+       [
+        "arn:aws:apigateway:eu-west-1:lambda:path/2015-03-31/functions/",
+        {
+         "Fn::GetAtt": [
+          "AddMovieRoleFn1FA4595B",
+          "Arn"
+         ]
+        },
+        "/invocations"
+       ]
+      ]
+     }
+    },
+    "ResourceId": {
+     "Ref": "AppApimoviesroles54280EEE"
+    },
+    "RestApiId": {
+     "Ref": "AppApiE7BADA01"
+    }
+   },
+   "Metadata": {
+    "aws:cdk:path": "AppApiStack/AppApi/Default/movies/roles/POST/Resource"
    }
   },
   "AppApimoviesmovieID81CE4C22": {
@@ -1359,7 +1563,7 @@
   "CDKMetadata": {
    "Type": "AWS::CDK::Metadata",
    "Properties": {
-    "Analytics": "v2:deflate64:H4sIAAAAAAAA/+1YS2/jNhD+LcvjglG33kNR3xy3TYPNJoZt9GIYwVgcy0woUuUjgVbQfy9IkZK9GwdbIOkjMGBD4sxwXpz5NNIoG/00yj68g0dzlrP7M8E3WbOwkN9TeDS3DasllIptsmYJG4F/jFYNqUBbbrmSn7Am44ZIKJGMyXtCia0rf7sgLSVGafu8xIYLwWURORpL9QBipgTPazImDI3Vqibtmk638kKoDYjgREsFlBsGt1IxvDPZdbj85mTunVo1BHS+4xZz63Qyq520vHcCpdV1coiXqJyNqxJLpesF/zKIPnCtZIkyieSKJeYOJBOow6qlTfd7VfOvrf8U3tsO758Ick05lFkzVwJ9MxrjSmTnAQgqzWXOKxCTPFeu97qT8RsmoYejz6QECQWyAAkcDRmvmgNaPdFRdh2iYmypZslEApJVE7nWQr67lIJL7HnkPfkO5vN6TwG+XIBv09TR3IdHm9dPO7qn9huWynO+OcNvyYwtLFj0HWj2ju0p8mvrb4jZoyXIO6Lg+70IeepS1FLz8RaMQWuyib9Q8zE7d/k92nMwGDL41X8dB4asmW5lmhOCRtQlN8avFlwWAq2Se3OEc5zFSugUzJyulMFjSHgIlDr43+1WxYVWrorLbTRxPYxFD1U+3C3cRmLM31FIP0TsmObPaIGBhS5v1GqH66dZMa170f6nwlm3VKjCZM1VtLVqerO9HR/ZixNDqSWrLYWKF2DxEeqsmeOfDo2dOLtTmn9BHYrTyw8kOvcSFV81foDNNa964PCPSlYpLu2yrgJqkPmvF5c315MrsqaEYSVUfRPkjQclY6HAPW8Jwy04YadKm5nGreDFzu7JgxDq8XcEhjolO5A+o90pdkCaamQoLQdhyNhXSaTfaF5wGTs3olMXD/0luOdb+MnQoOL9HG+By0H8AAeW6koVPAdxyQ6Q5ER/KXo4tCH7dOGrKBxZIsVz+qq8wr4g7EtYOZ1jwtM17Upo1RAdWamDra06XiRwabHQsFcYaq9A+y45XF2m3YkU9i+7N8VQ+VDxT1j7/uMaGRlvQRg8Ju+R2bs0R1MpaeLz2T+XnJkO6KMjewYaSrSpadp1OyDmnpa/q4SeknVK1ilZbylZzyXndCqnEv4fJOvZEg4jQKe3nwG6773D1FCB3c1AD9+z/hVumkyDi21Lw4ugH164LGjujFXlbcqZySaPZhpoaQc9XPZj/MDfyhtnK2db6j8yZ3fmh4fRKPvx5+zDuzvD+Vl8Wcnm3fUvD963eUcXAAA="
+    "Analytics": "v2:deflate64:H4sIAAAAAAAA/+1Z3W/bNhD/W8rHgtFa92GY3xyvy4KmiWEbezGM4CyeZSYUqfEjhirofy9IUZLdxkEGtEUyCEgg8+54X7z76WiPktHvo+TdG9ibs5Tdnwm+SaqFhfSewt7cVqyUkCu2SaolbAT+M1pVpABtueVKfsKSjCsiIUcyJm8JJbYs/McFqSkxStunJTZcCC6zyNGYqwcQMyV4WpIxYWisViWp13S6lRdCbUAEJ2oqIN8wuJWK4Z1JrsPjLydT79SqIqDTHbeYWqdbs9pJyzsnUFpdtg7xHJWzcZVjrnS54F960QeulcxRtiKpYi1zB5IJ1GFV06r5+6nmf7b+Ibz/d3i/Isg15ZAn1VwJ9M1ojMuRnQcgKDSXKS9ATNJUuc7rRsZvmIQejj6THCRkyAIkcDRkvKqOaOVER9l1iIqxpZq1JlogWVWRay2ku0spuMSOR96SZzCf1jsEOAT47AB/oamTCQkvVK+fNnRP7TYsled8l9jvyYwtLFj0fW8OcvkY+bXrr4g5oLVAfkLB870I59AcQU3Nh1swBq1JJv5BzYfk3KX3aM/BYDihb/7XcQxKqulWttNP0Ig658b41YLLTKBV8mA6co6zWGmNgpnThTJ4Ct+P4V8H/5vdKrvQyhVxuY0mrvth76FI+08Lt5EY83fyRXX8Hopp/owWGFho8katdrh+nBXTehDtiwpnXVOhMpNUV9HWqurMdnZ8ZD+cGEqttVpTKHgGFvdQJtUc/3Vo7MTZndL8C+pQnF6+J9G5lyj4qvJjeap50QGTHwBYobi0y7IIqETmHy8ub64nV2RNCcNCqPImyBsPesZChgfeEoZbcMJOlTYzjVvBs509kAch1P5vBIa6TXYgfUa7U+yINNXIUFoOwpCxr5JIv9E84zJ2bkS/Jh76Z3DPt/CjoUHBu9uJBS578SMcWKorlfEUxCU7QpKB/lrooSj606ULX6WhJFpSrINvyjfsC8K+RZTTKbZ4vaZNia4qoiOrRQhri4YXCVxazDQcFJ46aICuC49Xl+3ulhT2L5v7degsKPgnLH1/c42MjLcgDJ6S98jvXZqjKZQ0cb7w7z1npj266ciegYYcbduU9bruEflAy39VQodkDcl68cl6KjnDqQwl/AqSNZTwSzyVIVk/qoTDYNbo7Saz5reLfpYrwO5moPvvZl8gt72thADqmoYvB/zAyWVGU2esym/bjJpksjfTQGt30ONld7Xr+Vt542zhbE39zynJnfntYTRK3v+RvHtzZzg/ixfYZN48vwJTILq5MRoAAA=="
    },
    "Metadata": {
     "aws:cdk:path": "AppApiStack/CDKMetadata/Default"

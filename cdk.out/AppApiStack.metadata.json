@@ -423,6 +423,38 @@
           }
         ]
       }
+    },
+    {
+      "type": "aws:cdk:analytics:method",
+      "data": {
+        "addToPrincipalPolicy": [
+          {}
+        ]
+      }
+    },
+    {
+      "type": "aws:cdk:analytics:method",
+      "data": {
+        "attachInlinePolicy": [
+          "*"
+        ]
+      }
+    },
+    {
+      "type": "aws:cdk:analytics:method",
+      "data": {
+        "attachInlinePolicy": [
+          "*"
+        ]
+      }
+    },
+    {
+      "type": "aws:cdk:analytics:method",
+      "data": {
+        "addToPrincipalPolicy": [
+          {}
+        ]
+      }
     }
   ],
   "/AppApiStack/AddMovieRoleFn/Resource": [
@@ -500,7 +532,7 @@
       "type": "aws:cdk:creationStack",
       "data": [
         "...new RequestAuthorizer2 in aws-cdk-lib...",
-        "new AppApiStack (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\lib\\app-api-stack.ts:72:28)",
+        "new AppApiStack (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\lib\\app-api-stack.ts:73:28)",
         "<anonymous> (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\bin\\assignment.ts:11:1)",
         "<anonymous> (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\bin\\assignment.ts:15:2)",
         "...node internals, tsx..."
@@ -615,7 +647,7 @@
       "type": "aws:cdk:creationStack",
       "data": [
         "...new AwsCustomResource2 in aws-cdk-lib...",
-        "new AppApiStack (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\lib\\app-api-stack.ts:57:20)",
+        "new AppApiStack (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\lib\\app-api-stack.ts:58:20)",
         "<anonymous> (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\bin\\assignment.ts:11:1)"
       ]
     }
@@ -637,7 +669,7 @@
       "type": "aws:cdk:creationStack",
       "data": [
         "...new RequestAuthorizer2 in aws-cdk-lib...",
-        "new AppApiStack (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\lib\\app-api-stack.ts:72:28)",
+        "new AppApiStack (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\lib\\app-api-stack.ts:73:28)",
         "<anonymous> (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\bin\\assignment.ts:11:1)",
         "<anonymous> (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\bin\\assignment.ts:15:2)",
         "...node internals, tsx..."
@@ -653,7 +685,7 @@
       "type": "aws:cdk:creationStack",
       "data": [
         "...new RestApi2 in aws-cdk-lib...",
-        "new AppApiStack (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\lib\\app-api-stack.ts:78:17)",
+        "new AppApiStack (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\lib\\app-api-stack.ts:79:17)",
         "<anonymous> (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\bin\\assignment.ts:11:1)",
         "<anonymous> (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\bin\\assignment.ts:15:2)",
         "...node internals, tsx..."
@@ -667,6 +699,38 @@
         "description": "*",
         "api": "*",
         "retainDeployments": "*"
+      }
+    },
+    {
+      "type": "aws:cdk:analytics:method",
+      "data": {
+        "addToLogicalId": [
+          {}
+        ]
+      }
+    },
+    {
+      "type": "aws:cdk:analytics:method",
+      "data": {
+        "addToLogicalId": [
+          {}
+        ]
+      }
+    },
+    {
+      "type": "aws:cdk:analytics:method",
+      "data": {
+        "addToLogicalId": [
+          {}
+        ]
+      }
+    },
+    {
+      "type": "aws:cdk:analytics:method",
+      "data": {
+        "addToLogicalId": [
+          {}
+        ]
       }
     },
     {
@@ -808,7 +872,7 @@
       "type": "aws:cdk:creationStack",
       "data": [
         "...new RestApi2 in aws-cdk-lib...",
-        "new AppApiStack (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\lib\\app-api-stack.ts:78:17)",
+        "new AppApiStack (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\lib\\app-api-stack.ts:79:17)",
         "<anonymous> (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\bin\\assignment.ts:11:1)",
         "<anonymous> (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\bin\\assignment.ts:15:2)",
         "...node internals, tsx..."
@@ -1007,6 +1071,44 @@
       ]
     }
   ],
+  "/AppApiStack/AddMovieRoleFn/ServiceRole/DefaultPolicy": [
+    {
+      "type": "aws:cdk:analytics:construct",
+      "data": "*"
+    },
+    {
+      "type": "aws:cdk:analytics:method",
+      "data": {
+        "attachToRole": [
+          "*"
+        ]
+      }
+    },
+    {
+      "type": "aws:cdk:analytics:method",
+      "data": {
+        "attachToRole": [
+          "*"
+        ]
+      }
+    },
+    {
+      "type": "aws:cdk:analytics:method",
+      "data": {
+        "addStatements": [
+          {}
+        ]
+      }
+    },
+    {
+      "type": "aws:cdk:analytics:method",
+      "data": {
+        "addStatements": [
+          {}
+        ]
+      }
+    }
+  ],
   "/AppApiStack/AddMovieRoleFn/Code/AssetBucket": [
     {
       "type": "aws:cdk:analytics:construct",
@@ -1079,7 +1181,7 @@
       "type": "aws:cdk:creationStack",
       "data": [
         "...new AwsCustomResource2 in aws-cdk-lib...",
-        "new AppApiStack (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\lib\\app-api-stack.ts:57:20)",
+        "new AppApiStack (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\lib\\app-api-stack.ts:58:20)",
         "<anonymous> (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\bin\\assignment.ts:11:1)",
         "<anonymous> (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\bin\\assignment.ts:15:2)",
         "...node internals, tsx..."
@@ -1095,7 +1197,7 @@
       "type": "aws:cdk:creationStack",
       "data": [
         "...new AwsCustomResource2 in aws-cdk-lib...",
-        "new AppApiStack (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\lib\\app-api-stack.ts:57:20)",
+        "new AppApiStack (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\lib\\app-api-stack.ts:58:20)",
         "<anonymous> (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\bin\\assignment.ts:11:1)",
         "<anonymous> (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\bin\\assignment.ts:15:2)",
         "...node internals, tsx..."
@@ -1137,13 +1239,13 @@
   "/AppApiStack/AppApi/Deployment/Resource": [
     {
       "type": "aws:cdk:logicalId",
-      "data": "AppApiDeployment7658F313568da258b9ccf36d9dd0815e7d5fc830"
+      "data": "AppApiDeployment7658F31317af28f6a9383ccc2f4c222f2a416436"
     },
     {
       "type": "aws:cdk:creationStack",
       "data": [
         "...new RestApi2 in aws-cdk-lib...",
-        "new AppApiStack (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\lib\\app-api-stack.ts:78:17)",
+        "new AppApiStack (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\lib\\app-api-stack.ts:79:17)",
         "<anonymous> (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\bin\\assignment.ts:11:1)",
         "<anonymous> (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\bin\\assignment.ts:15:2)",
         "...node internals..."
@@ -1159,7 +1261,7 @@
       "type": "aws:cdk:creationStack",
       "data": [
         "...new RestApi2 in aws-cdk-lib...",
-        "new AppApiStack (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\lib\\app-api-stack.ts:78:17)",
+        "new AppApiStack (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\lib\\app-api-stack.ts:79:17)",
         "<anonymous> (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\bin\\assignment.ts:11:1)",
         "<anonymous> (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\bin\\assignment.ts:15:2)",
         "...node internals..."
@@ -1245,6 +1347,19 @@
       ]
     }
   ],
+  "/AppApiStack/AddMovieRoleFn/ServiceRole/DefaultPolicy/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "AddMovieRoleFnServiceRoleDefaultPolicyD4C826A2"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...PropertyInjectable.grantReadWriteData in aws-cdk-lib...",
+        "new AppApiStack (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\lib\\app-api-stack.ts:53:11)"
+      ]
+    }
+  ],
   "/AppApiStack/AppApi/Default/OPTIONS/Resource": [
     {
       "type": "aws:cdk:logicalId",
@@ -1254,7 +1369,7 @@
       "type": "aws:cdk:creationStack",
       "data": [
         "...new RestApi2 in aws-cdk-lib...",
-        "new AppApiStack (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\lib\\app-api-stack.ts:78:17)"
+        "new AppApiStack (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\lib\\app-api-stack.ts:79:17)"
       ]
     }
   ],
@@ -1267,7 +1382,7 @@
       "type": "aws:cdk:creationStack",
       "data": [
         "...RootResource.addResource in aws-cdk-lib...",
-        "new AppApiStack (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\lib\\app-api-stack.ts:95:37)",
+        "new AppApiStack (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\lib\\app-api-stack.ts:96:37)",
         "<anonymous> (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\bin\\assignment.ts:11:1)",
         "<anonymous> (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\bin\\assignment.ts:15:2)",
         "...node internals, tsx..."
@@ -1309,6 +1424,15 @@
       }
     }
   ],
+  "/AppApiStack/AppApi/Default/movies/roles": [
+    {
+      "type": "aws:cdk:analytics:construct",
+      "data": {
+        "parent": "*",
+        "pathPart": "*"
+      }
+    }
+  ],
   "/AppApiStack/AppApi/Default/movies/{movieID}": [
     {
       "type": "aws:cdk:analytics:construct",
@@ -1327,7 +1451,7 @@
       "type": "aws:cdk:creationStack",
       "data": [
         "...RootResource.addResource in aws-cdk-lib...",
-        "new AppApiStack (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\lib\\app-api-stack.ts:101:8)",
+        "new AppApiStack (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\lib\\app-api-stack.ts:102:8)",
         "<anonymous> (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\bin\\assignment.ts:11:1)",
         "<anonymous> (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\bin\\assignment.ts:15:2)",
         "...node internals, tsx..."
@@ -1387,9 +1511,74 @@
       "type": "aws:cdk:creationStack",
       "data": [
         "...RootResource.addResource in aws-cdk-lib...",
-        "new AppApiStack (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\lib\\app-api-stack.ts:95:37)",
+        "new AppApiStack (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\lib\\app-api-stack.ts:96:37)",
         "<anonymous> (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\bin\\assignment.ts:11:1)"
       ]
+    }
+  ],
+  "/AppApiStack/AppApi/Default/movies/roles/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "AppApimoviesroles54280EEE"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...PropertyInjectable.addResource in aws-cdk-lib...",
+        "new AppApiStack (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\lib\\app-api-stack.ts:97:44)",
+        "<anonymous> (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\bin\\assignment.ts:11:1)",
+        "<anonymous> (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\bin\\assignment.ts:15:2)",
+        "...node internals, tsx..."
+      ]
+    }
+  ],
+  "/AppApiStack/AppApi/Default/movies/roles/OPTIONS": [
+    {
+      "type": "aws:cdk:analytics:construct",
+      "data": {
+        "resource": "*",
+        "httpMethod": "*",
+        "integration": "*",
+        "options": {
+          "authorizer": {
+            "authorizerId": "*",
+            "authorizationType": "*"
+          },
+          "apiKeyRequired": false,
+          "authorizationType": "*",
+          "methodResponses": [
+            {
+              "statusCode": "*",
+              "responseParameters": "*"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "type": "aws:cdk:analytics:method",
+      "data": {
+        "addMethodResponse": [
+          {
+            "statusCode": "*",
+            "responseParameters": "*"
+          }
+        ]
+      }
+    }
+  ],
+  "/AppApiStack/AppApi/Default/movies/roles/POST": [
+    {
+      "type": "aws:cdk:analytics:construct",
+      "data": {
+        "resource": "*",
+        "httpMethod": "*",
+        "integration": "*",
+        "options": {
+          "authorizer": "*",
+          "authorizationType": "*"
+        }
+      }
     }
   ],
   "/AppApiStack/AppApi/Default/movies/{movieID}/Resource": [
@@ -1401,7 +1590,7 @@
       "type": "aws:cdk:creationStack",
       "data": [
         "...PropertyInjectable.addResource in aws-cdk-lib...",
-        "new AppApiStack (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\lib\\app-api-stack.ts:97:47)",
+        "new AppApiStack (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\lib\\app-api-stack.ts:98:47)",
         "<anonymous> (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\bin\\assignment.ts:11:1)",
         "<anonymous> (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\bin\\assignment.ts:15:2)",
         "...node internals, tsx..."
@@ -1461,7 +1650,7 @@
       "type": "aws:cdk:creationStack",
       "data": [
         "...RootResource.addResource in aws-cdk-lib...",
-        "new AppApiStack (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\lib\\app-api-stack.ts:101:8)",
+        "new AppApiStack (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\lib\\app-api-stack.ts:102:8)",
         "<anonymous> (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\bin\\assignment.ts:11:1)"
       ]
     }
@@ -1475,7 +1664,7 @@
       "type": "aws:cdk:creationStack",
       "data": [
         "...PropertyInjectable.addResource in aws-cdk-lib...",
-        "new AppApiStack (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\lib\\app-api-stack.ts:102:8)",
+        "new AppApiStack (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\lib\\app-api-stack.ts:103:8)",
         "<anonymous> (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\bin\\assignment.ts:11:1)",
         "<anonymous> (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\bin\\assignment.ts:15:2)",
         "...node internals, tsx..."
@@ -1531,6 +1720,68 @@
       }
     }
   ],
+  "/AppApiStack/AppApi/Default/movies/roles/OPTIONS/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "AppApimoviesrolesOPTIONSEF54D4A3"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...PropertyInjectable.addResource in aws-cdk-lib...",
+        "new AppApiStack (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\lib\\app-api-stack.ts:97:44)",
+        "<anonymous> (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\bin\\assignment.ts:11:1)"
+      ]
+    }
+  ],
+  "/AppApiStack/AppApi/Default/movies/roles/POST/ApiPermission.AppApiStackAppApi3D3D54B8.POST..movies.roles": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "AppApimoviesrolesPOSTApiPermissionAppApiStackAppApi3D3D54B8POSTmoviesrolesA02295E8"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...PropertyInjectable.addMethod in aws-cdk-lib...",
+        "new AppApiStack (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\lib\\app-api-stack.ts:100:21)",
+        "<anonymous> (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\bin\\assignment.ts:11:1)",
+        "<anonymous> (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\bin\\assignment.ts:15:2)",
+        "...node internals..."
+      ]
+    }
+  ],
+  "/AppApiStack/AppApi/Default/movies/roles/POST/ApiPermission.Test.AppApiStackAppApi3D3D54B8.POST..movies.roles": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "AppApimoviesrolesPOSTApiPermissionTestAppApiStackAppApi3D3D54B8POSTmoviesroles197CD4FD"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...PropertyInjectable.addMethod in aws-cdk-lib...",
+        "new AppApiStack (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\lib\\app-api-stack.ts:100:21)",
+        "<anonymous> (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\bin\\assignment.ts:11:1)",
+        "<anonymous> (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\bin\\assignment.ts:15:2)",
+        "...node internals..."
+      ]
+    }
+  ],
+  "/AppApiStack/AppApi/Default/movies/roles/POST/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "AppApimoviesrolesPOST97E4CE12"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...PropertyInjectable.addMethod in aws-cdk-lib...",
+        "new AppApiStack (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\lib\\app-api-stack.ts:100:21)",
+        "<anonymous> (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\bin\\assignment.ts:11:1)",
+        "<anonymous> (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\bin\\assignment.ts:15:2)",
+        "...node internals, tsx..."
+      ]
+    }
+  ],
   "/AppApiStack/AppApi/Default/movies/{movieID}/OPTIONS/Resource": [
     {
       "type": "aws:cdk:logicalId",
@@ -1540,7 +1791,7 @@
       "type": "aws:cdk:creationStack",
       "data": [
         "...PropertyInjectable.addResource in aws-cdk-lib...",
-        "new AppApiStack (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\lib\\app-api-stack.ts:97:47)",
+        "new AppApiStack (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\lib\\app-api-stack.ts:98:47)",
         "<anonymous> (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\bin\\assignment.ts:11:1)"
       ]
     }
@@ -1554,7 +1805,7 @@
       "type": "aws:cdk:creationStack",
       "data": [
         "...PropertyInjectable.addResource in aws-cdk-lib...",
-        "new AppApiStack (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\lib\\app-api-stack.ts:97:72)",
+        "new AppApiStack (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\lib\\app-api-stack.ts:98:72)",
         "<anonymous> (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\bin\\assignment.ts:11:1)",
         "<anonymous> (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\bin\\assignment.ts:15:2)",
         "...node internals, tsx..."
@@ -1619,7 +1870,7 @@
       "type": "aws:cdk:creationStack",
       "data": [
         "...PropertyInjectable.addResource in aws-cdk-lib...",
-        "new AppApiStack (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\lib\\app-api-stack.ts:102:8)",
+        "new AppApiStack (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\lib\\app-api-stack.ts:103:8)",
         "<anonymous> (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\bin\\assignment.ts:11:1)"
       ]
     }
@@ -1633,7 +1884,7 @@
       "type": "aws:cdk:creationStack",
       "data": [
         "...PropertyInjectable.addMethod in aws-cdk-lib...",
-        "new AppApiStack (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\lib\\app-api-stack.ts:103:8)",
+        "new AppApiStack (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\lib\\app-api-stack.ts:104:8)",
         "<anonymous> (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\bin\\assignment.ts:11:1)",
         "<anonymous> (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\bin\\assignment.ts:15:2)",
         "...node internals..."
@@ -1649,7 +1900,7 @@
       "type": "aws:cdk:creationStack",
       "data": [
         "...PropertyInjectable.addMethod in aws-cdk-lib...",
-        "new AppApiStack (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\lib\\app-api-stack.ts:103:8)",
+        "new AppApiStack (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\lib\\app-api-stack.ts:104:8)",
         "<anonymous> (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\bin\\assignment.ts:11:1)",
         "<anonymous> (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\bin\\assignment.ts:15:2)",
         "...node internals..."
@@ -1665,7 +1916,7 @@
       "type": "aws:cdk:creationStack",
       "data": [
         "...PropertyInjectable.addMethod in aws-cdk-lib...",
-        "new AppApiStack (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\lib\\app-api-stack.ts:103:8)",
+        "new AppApiStack (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\lib\\app-api-stack.ts:104:8)",
         "<anonymous> (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\bin\\assignment.ts:11:1)",
         "<anonymous> (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\bin\\assignment.ts:15:2)",
         "...node internals, tsx..."
@@ -1681,7 +1932,7 @@
       "type": "aws:cdk:creationStack",
       "data": [
         "...PropertyInjectable.addResource in aws-cdk-lib...",
-        "new AppApiStack (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\lib\\app-api-stack.ts:97:72)",
+        "new AppApiStack (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\lib\\app-api-stack.ts:98:72)",
         "<anonymous> (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\bin\\assignment.ts:11:1)"
       ]
     }
@@ -1695,7 +1946,7 @@
       "type": "aws:cdk:creationStack",
       "data": [
         "...PropertyInjectable.addMethod in aws-cdk-lib...",
-        "new AppApiStack (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\lib\\app-api-stack.ts:98:24)",
+        "new AppApiStack (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\lib\\app-api-stack.ts:99:24)",
         "<anonymous> (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\bin\\assignment.ts:11:1)",
         "<anonymous> (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\bin\\assignment.ts:15:2)",
         "...node internals..."
@@ -1711,7 +1962,7 @@
       "type": "aws:cdk:creationStack",
       "data": [
         "...PropertyInjectable.addMethod in aws-cdk-lib...",
-        "new AppApiStack (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\lib\\app-api-stack.ts:98:24)",
+        "new AppApiStack (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\lib\\app-api-stack.ts:99:24)",
         "<anonymous> (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\bin\\assignment.ts:11:1)",
         "<anonymous> (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\bin\\assignment.ts:15:2)",
         "...node internals..."
@@ -1727,7 +1978,7 @@
       "type": "aws:cdk:creationStack",
       "data": [
         "...PropertyInjectable.addMethod in aws-cdk-lib...",
-        "new AppApiStack (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\lib\\app-api-stack.ts:98:24)",
+        "new AppApiStack (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\lib\\app-api-stack.ts:99:24)",
         "<anonymous> (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\bin\\assignment.ts:11:1)",
         "<anonymous> (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\bin\\assignment.ts:15:2)",
         "...node internals, tsx..."
