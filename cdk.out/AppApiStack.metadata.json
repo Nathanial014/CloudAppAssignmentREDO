@@ -1,0 +1,2068 @@
+{
+  "/AppApiStack": [
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "<anonymous> (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\bin\\assignment.ts:11:1)",
+        "<anonymous> (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\bin\\assignment.ts:15:2)",
+        "...node internals, tsx..."
+      ]
+    }
+  ],
+  "/AppApiStack/MovieCastTable": [
+    {
+      "type": "aws:cdk:analytics:construct",
+      "data": {
+        "partitionKey": {
+          "name": "*",
+          "type": "S"
+        },
+        "sortKey": {
+          "name": "*",
+          "type": "S"
+        },
+        "billing": "*",
+        "removalPolicy": "destroy"
+      }
+    }
+  ],
+  "/AppApiStack/GetMovieRolesFn": [
+    {
+      "type": "aws:cdk:analytics:construct",
+      "data": {
+        "architecture": "*",
+        "runtime": "*",
+        "entry": "*",
+        "timeout": "*",
+        "memorySize": "*",
+        "environment": "*",
+        "code": "*",
+        "handler": "*"
+      }
+    },
+    {
+      "type": "aws:cdk:analytics:method",
+      "data": {}
+    },
+    {
+      "type": "aws:cdk:analytics:method",
+      "data": {}
+    },
+    {
+      "type": "aws:cdk:analytics:construct",
+      "data": {
+        "architecture": "*",
+        "runtime": "*",
+        "entry": "*",
+        "timeout": "*",
+        "memorySize": "*",
+        "environment": "*"
+      }
+    }
+  ],
+  "/AppApiStack/GetActorFn": [
+    {
+      "type": "aws:cdk:analytics:construct",
+      "data": {
+        "architecture": "*",
+        "runtime": "*",
+        "entry": "*",
+        "timeout": "*",
+        "memorySize": "*",
+        "environment": "*",
+        "code": "*",
+        "handler": "*"
+      }
+    },
+    {
+      "type": "aws:cdk:analytics:method",
+      "data": {}
+    },
+    {
+      "type": "aws:cdk:analytics:method",
+      "data": {}
+    },
+    {
+      "type": "aws:cdk:analytics:construct",
+      "data": {
+        "architecture": "*",
+        "runtime": "*",
+        "entry": "*",
+        "timeout": "*",
+        "memorySize": "*",
+        "environment": "*"
+      }
+    }
+  ],
+  "/AppApiStack/AddMovieRoleFn": [
+    {
+      "type": "aws:cdk:analytics:construct",
+      "data": {
+        "architecture": "*",
+        "runtime": "*",
+        "entry": "*",
+        "timeout": "*",
+        "memorySize": "*",
+        "environment": "*",
+        "code": "*",
+        "handler": "*"
+      }
+    },
+    {
+      "type": "aws:cdk:analytics:method",
+      "data": {}
+    },
+    {
+      "type": "aws:cdk:analytics:method",
+      "data": {}
+    },
+    {
+      "type": "aws:cdk:analytics:construct",
+      "data": {
+        "architecture": "*",
+        "runtime": "*",
+        "entry": "*",
+        "timeout": "*",
+        "memorySize": "*",
+        "environment": "*"
+      }
+    }
+  ],
+  "/AppApiStack/AuthorizerFn": [
+    {
+      "type": "aws:cdk:analytics:construct",
+      "data": {
+        "architecture": "*",
+        "runtime": "*",
+        "entry": "*",
+        "timeout": "*",
+        "memorySize": "*",
+        "environment": "*",
+        "code": "*",
+        "handler": "*"
+      }
+    },
+    {
+      "type": "aws:cdk:analytics:method",
+      "data": {}
+    },
+    {
+      "type": "aws:cdk:analytics:method",
+      "data": {}
+    },
+    {
+      "type": "aws:cdk:analytics:method",
+      "data": {}
+    },
+    {
+      "type": "aws:cdk:analytics:method",
+      "data": {}
+    },
+    {
+      "type": "aws:cdk:analytics:construct",
+      "data": {
+        "architecture": "*",
+        "runtime": "*",
+        "entry": "*",
+        "timeout": "*",
+        "memorySize": "*",
+        "environment": "*"
+      }
+    }
+  ],
+  "/AppApiStack/AWS679f53fac002430cb0da5b7982bd2287": [
+    {
+      "type": "aws:cdk:analytics:construct",
+      "data": {
+        "memorySize": "*",
+        "timeout": "*",
+        "role": "*",
+        "logGroup": "*",
+        "functionName": "*",
+        "vpc": "*",
+        "vpcSubnets": "*",
+        "code": "*",
+        "handler": "*",
+        "runtime": "*"
+      }
+    },
+    {
+      "type": "aws:cdk:is-custom-resource-handler-singleton",
+      "data": true
+    },
+    {
+      "type": "aws:cdk:is-custom-resource-handler-runtime-family",
+      "data": 0
+    }
+  ],
+  "/AppApiStack/UserAuthorizer": [
+    {
+      "type": "aws:cdk:analytics:construct",
+      "data": "*"
+    }
+  ],
+  "/AppApiStack/AppApi": [
+    {
+      "type": "aws:cdk:analytics:construct",
+      "data": {
+        "description": "*",
+        "endpointTypes": [
+          "REGIONAL"
+        ],
+        "deployOptions": {
+          "stageName": "*"
+        },
+        "defaultCorsPreflightOptions": {
+          "allowHeaders": "*",
+          "allowMethods": "*",
+          "allowCredentials": true,
+          "allowOrigins": "*"
+        }
+      }
+    }
+  ],
+  "/AppApiStack/AdminApiKey": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "AdminApiKey"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "new AppApiStack (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\lib\\app-api-stack.ts:97:5)",
+        "<anonymous> (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\bin\\assignment.ts:11:1)",
+        "<anonymous> (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\bin\\assignment.ts:15:2)",
+        "...node internals, tsx..."
+      ]
+    }
+  ],
+  "/AppApiStack/BootstrapVersion": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "BootstrapVersion"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/AppApiStack/CheckBootstrapVersion": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "CheckBootstrapVersion"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/AppApiStack/MovieCastTable/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "MovieCastTableE4F7E4C8"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...new TableV22 in aws-cdk-lib...",
+        "new AppApiStack (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\lib\\app-api-stack.ts:21:19)",
+        "<anonymous> (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\bin\\assignment.ts:11:1)",
+        "<anonymous> (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\bin\\assignment.ts:15:2)",
+        "...node internals, tsx..."
+      ]
+    }
+  ],
+  "/AppApiStack/GetMovieRolesFn/ServiceRole": [
+    {
+      "type": "aws:cdk:analytics:construct",
+      "data": {
+        "assumedBy": {
+          "principalAccount": "*",
+          "assumeRoleAction": "*"
+        },
+        "managedPolicies": [
+          {
+            "managedPolicyArn": "*"
+          }
+        ]
+      }
+    },
+    {
+      "type": "aws:cdk:analytics:method",
+      "data": {
+        "addToPrincipalPolicy": [
+          {}
+        ]
+      }
+    },
+    {
+      "type": "aws:cdk:analytics:method",
+      "data": {
+        "attachInlinePolicy": [
+          "*"
+        ]
+      }
+    },
+    {
+      "type": "aws:cdk:analytics:method",
+      "data": {
+        "attachInlinePolicy": [
+          "*"
+        ]
+      }
+    },
+    {
+      "type": "aws:cdk:analytics:method",
+      "data": {
+        "addToPrincipalPolicy": [
+          {}
+        ]
+      }
+    }
+  ],
+  "/AppApiStack/GetMovieRolesFn/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "GetMovieRolesFnE306976D"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...new NodejsFunction in aws-cdk-lib...",
+        "appFn (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\lib\\app-api-stack.ts:29:7)",
+        "new AppApiStack (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\lib\\app-api-stack.ts:43:29)",
+        "<anonymous> (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\bin\\assignment.ts:11:1)",
+        "<anonymous> (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\bin\\assignment.ts:15:2)",
+        "...node internals, tsx..."
+      ]
+    }
+  ],
+  "/AppApiStack/GetMovieRolesFn/LogGroup": [
+    {
+      "type": "aws:cdk:analytics:construct",
+      "data": {
+        "logGroupName": "*"
+      }
+    }
+  ],
+  "/AppApiStack/GetActorFn/ServiceRole": [
+    {
+      "type": "aws:cdk:analytics:construct",
+      "data": {
+        "assumedBy": {
+          "principalAccount": "*",
+          "assumeRoleAction": "*"
+        },
+        "managedPolicies": [
+          {
+            "managedPolicyArn": "*"
+          }
+        ]
+      }
+    },
+    {
+      "type": "aws:cdk:analytics:method",
+      "data": {
+        "addToPrincipalPolicy": [
+          {}
+        ]
+      }
+    },
+    {
+      "type": "aws:cdk:analytics:method",
+      "data": {
+        "attachInlinePolicy": [
+          "*"
+        ]
+      }
+    },
+    {
+      "type": "aws:cdk:analytics:method",
+      "data": {
+        "attachInlinePolicy": [
+          "*"
+        ]
+      }
+    },
+    {
+      "type": "aws:cdk:analytics:method",
+      "data": {
+        "addToPrincipalPolicy": [
+          {}
+        ]
+      }
+    }
+  ],
+  "/AppApiStack/GetActorFn/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "GetActorFnF60AD72E"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...new NodejsFunction in aws-cdk-lib...",
+        "appFn (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\lib\\app-api-stack.ts:29:7)",
+        "new AppApiStack (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\lib\\app-api-stack.ts:44:24)",
+        "<anonymous> (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\bin\\assignment.ts:11:1)",
+        "<anonymous> (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\bin\\assignment.ts:15:2)",
+        "...node internals, tsx..."
+      ]
+    }
+  ],
+  "/AppApiStack/GetActorFn/LogGroup": [
+    {
+      "type": "aws:cdk:analytics:construct",
+      "data": {
+        "logGroupName": "*"
+      }
+    }
+  ],
+  "/AppApiStack/AddMovieRoleFn/ServiceRole": [
+    {
+      "type": "aws:cdk:analytics:construct",
+      "data": {
+        "assumedBy": {
+          "principalAccount": "*",
+          "assumeRoleAction": "*"
+        },
+        "managedPolicies": [
+          {
+            "managedPolicyArn": "*"
+          }
+        ]
+      }
+    },
+    {
+      "type": "aws:cdk:analytics:method",
+      "data": {
+        "addToPrincipalPolicy": [
+          {}
+        ]
+      }
+    },
+    {
+      "type": "aws:cdk:analytics:method",
+      "data": {
+        "attachInlinePolicy": [
+          "*"
+        ]
+      }
+    },
+    {
+      "type": "aws:cdk:analytics:method",
+      "data": {
+        "attachInlinePolicy": [
+          "*"
+        ]
+      }
+    },
+    {
+      "type": "aws:cdk:analytics:method",
+      "data": {
+        "addToPrincipalPolicy": [
+          {}
+        ]
+      }
+    }
+  ],
+  "/AppApiStack/AddMovieRoleFn/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "AddMovieRoleFn1FA4595B"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...new NodejsFunction in aws-cdk-lib...",
+        "appFn (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\lib\\app-api-stack.ts:29:7)",
+        "new AppApiStack (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\lib\\app-api-stack.ts:45:28)",
+        "<anonymous> (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\bin\\assignment.ts:11:1)",
+        "<anonymous> (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\bin\\assignment.ts:15:2)",
+        "...node internals, tsx..."
+      ]
+    }
+  ],
+  "/AppApiStack/AddMovieRoleFn/LogGroup": [
+    {
+      "type": "aws:cdk:analytics:construct",
+      "data": {
+        "logGroupName": "*"
+      }
+    }
+  ],
+  "/AppApiStack/AuthorizerFn/ServiceRole": [
+    {
+      "type": "aws:cdk:analytics:construct",
+      "data": {
+        "assumedBy": {
+          "principalAccount": "*",
+          "assumeRoleAction": "*"
+        },
+        "managedPolicies": [
+          {
+            "managedPolicyArn": "*"
+          }
+        ]
+      }
+    }
+  ],
+  "/AppApiStack/AuthorizerFn/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "AuthorizerFn97B9AA7C"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...new NodejsFunction in aws-cdk-lib...",
+        "appFn (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\lib\\app-api-stack.ts:29:7)",
+        "new AppApiStack (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\lib\\app-api-stack.ts:46:26)",
+        "<anonymous> (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\bin\\assignment.ts:11:1)",
+        "<anonymous> (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\bin\\assignment.ts:15:2)",
+        "...node internals, tsx..."
+      ]
+    }
+  ],
+  "/AppApiStack/AuthorizerFn/LogGroup": [
+    {
+      "type": "aws:cdk:analytics:construct",
+      "data": {
+        "logGroupName": "*"
+      }
+    }
+  ],
+  "/AppApiStack/AuthorizerFn/AppApiStackUserAuthorizer11DE4D53:Permissions": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "AuthorizerFnAppApiStackUserAuthorizer11DE4D53Permissions63AA764A"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...new RequestAuthorizer2 in aws-cdk-lib...",
+        "new AppApiStack (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\lib\\app-api-stack.ts:73:28)",
+        "<anonymous> (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\bin\\assignment.ts:11:1)",
+        "<anonymous> (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\bin\\assignment.ts:15:2)",
+        "...node internals, tsx..."
+      ]
+    }
+  ],
+  "/AppApiStack/SeedMovieCastData/Provider": [
+    {
+      "type": "aws:cdk:analytics:construct",
+      "data": {
+        "uuid": "*",
+        "lambdaPurpose": "*",
+        "memorySize": "*",
+        "timeout": "*",
+        "role": "*",
+        "logGroup": "*",
+        "functionName": "*",
+        "vpc": "*",
+        "vpcSubnets": "*",
+        "code": "*",
+        "handler": "*",
+        "runtime": "*"
+      }
+    },
+    {
+      "type": "aws:cdk:analytics:method",
+      "data": {
+        "addMetadata": [
+          "*",
+          true
+        ]
+      }
+    },
+    {
+      "type": "aws:cdk:analytics:method",
+      "data": {
+        "addMetadata": [
+          "*",
+          "*"
+        ]
+      }
+    }
+  ],
+  "/AppApiStack/SeedMovieCastData/Resource": [
+    {
+      "type": "aws:cdk:analytics:construct",
+      "data": "*"
+    }
+  ],
+  "/AppApiStack/SeedMovieCastData/CustomResourcePolicy": [
+    {
+      "type": "aws:cdk:analytics:construct",
+      "data": {
+        "statements": "*"
+      }
+    },
+    {
+      "type": "aws:cdk:analytics:method",
+      "data": {
+        "addStatements": [
+          {}
+        ]
+      }
+    },
+    {
+      "type": "aws:cdk:analytics:method",
+      "data": {
+        "attachToRole": [
+          "*"
+        ]
+      }
+    },
+    {
+      "type": "aws:cdk:analytics:method",
+      "data": {
+        "attachToRole": [
+          "*"
+        ]
+      }
+    }
+  ],
+  "/AppApiStack/AWS679f53fac002430cb0da5b7982bd2287/ServiceRole": [
+    {
+      "type": "aws:cdk:analytics:construct",
+      "data": {
+        "assumedBy": {
+          "principalAccount": "*",
+          "assumeRoleAction": "*"
+        },
+        "managedPolicies": [
+          {
+            "managedPolicyArn": "*"
+          }
+        ]
+      }
+    },
+    {
+      "type": "aws:cdk:analytics:method",
+      "data": {
+        "attachInlinePolicy": [
+          "*"
+        ]
+      }
+    }
+  ],
+  "/AppApiStack/AWS679f53fac002430cb0da5b7982bd2287/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "AWS679f53fac002430cb0da5b7982bd22872D164C4C"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...new AwsCustomResource2 in aws-cdk-lib...",
+        "new AppApiStack (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\lib\\app-api-stack.ts:58:20)",
+        "<anonymous> (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\bin\\assignment.ts:11:1)"
+      ]
+    }
+  ],
+  "/AppApiStack/AWS679f53fac002430cb0da5b7982bd2287/LogGroup": [
+    {
+      "type": "aws:cdk:analytics:construct",
+      "data": {
+        "logGroupName": "*"
+      }
+    }
+  ],
+  "/AppApiStack/UserAuthorizer/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "UserAuthorizerF623B8DE"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...new RequestAuthorizer2 in aws-cdk-lib...",
+        "new AppApiStack (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\lib\\app-api-stack.ts:73:28)",
+        "<anonymous> (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\bin\\assignment.ts:11:1)",
+        "<anonymous> (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\bin\\assignment.ts:15:2)",
+        "...node internals, tsx..."
+      ]
+    }
+  ],
+  "/AppApiStack/AppApi/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "AppApiE7BADA01"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...new RestApi2 in aws-cdk-lib...",
+        "new AppApiStack (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\lib\\app-api-stack.ts:79:17)",
+        "<anonymous> (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\bin\\assignment.ts:11:1)",
+        "<anonymous> (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\bin\\assignment.ts:15:2)",
+        "...node internals, tsx..."
+      ]
+    }
+  ],
+  "/AppApiStack/AppApi/Deployment": [
+    {
+      "type": "aws:cdk:analytics:construct",
+      "data": {
+        "description": "*",
+        "api": "*",
+        "retainDeployments": "*"
+      }
+    },
+    {
+      "type": "aws:cdk:analytics:method",
+      "data": {
+        "addToLogicalId": [
+          {}
+        ]
+      }
+    },
+    {
+      "type": "aws:cdk:analytics:method",
+      "data": {
+        "addToLogicalId": [
+          {}
+        ]
+      }
+    },
+    {
+      "type": "aws:cdk:analytics:method",
+      "data": {
+        "addToLogicalId": [
+          {}
+        ]
+      }
+    },
+    {
+      "type": "aws:cdk:analytics:method",
+      "data": {
+        "addToLogicalId": [
+          {}
+        ]
+      }
+    },
+    {
+      "type": "aws:cdk:analytics:method",
+      "data": {
+        "addToLogicalId": [
+          {}
+        ]
+      }
+    },
+    {
+      "type": "aws:cdk:analytics:method",
+      "data": {
+        "addToLogicalId": [
+          {}
+        ]
+      }
+    },
+    {
+      "type": "aws:cdk:analytics:method",
+      "data": {
+        "addToLogicalId": [
+          {}
+        ]
+      }
+    },
+    {
+      "type": "aws:cdk:analytics:method",
+      "data": {
+        "addToLogicalId": [
+          {}
+        ]
+      }
+    },
+    {
+      "type": "aws:cdk:analytics:method",
+      "data": {
+        "addToLogicalId": [
+          {}
+        ]
+      }
+    },
+    {
+      "type": "aws:cdk:analytics:method",
+      "data": {
+        "addToLogicalId": [
+          {}
+        ]
+      }
+    },
+    {
+      "type": "aws:cdk:analytics:method",
+      "data": {
+        "addToLogicalId": [
+          {}
+        ]
+      }
+    },
+    {
+      "type": "aws:cdk:analytics:method",
+      "data": {
+        "addToLogicalId": [
+          {}
+        ]
+      }
+    },
+    {
+      "type": "aws:cdk:analytics:method",
+      "data": {
+        "addToLogicalId": [
+          {}
+        ]
+      }
+    },
+    {
+      "type": "aws:cdk:analytics:method",
+      "data": {
+        "addToLogicalId": [
+          {}
+        ]
+      }
+    },
+    {
+      "type": "aws:cdk:analytics:method",
+      "data": {
+        "addToLogicalId": [
+          {}
+        ]
+      }
+    },
+    {
+      "type": "aws:cdk:analytics:method",
+      "data": {
+        "addToLogicalId": [
+          {}
+        ]
+      }
+    },
+    {
+      "type": "aws:cdk:analytics:method",
+      "data": {
+        "addToLogicalId": [
+          {}
+        ]
+      }
+    },
+    {
+      "type": "aws:cdk:analytics:method",
+      "data": {
+        "addToLogicalId": [
+          {}
+        ]
+      }
+    }
+  ],
+  "/AppApiStack/AppApi/DeploymentStage.dev": [
+    {
+      "type": "aws:cdk:analytics:construct",
+      "data": {
+        "deployment": "*",
+        "stageName": "*"
+      }
+    }
+  ],
+  "/AppApiStack/AppApi/Endpoint": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "AppApiEndpoint979256A8"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...new RestApi2 in aws-cdk-lib...",
+        "new AppApiStack (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\lib\\app-api-stack.ts:79:17)",
+        "<anonymous> (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\bin\\assignment.ts:11:1)",
+        "<anonymous> (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\bin\\assignment.ts:15:2)",
+        "...node internals, tsx..."
+      ]
+    }
+  ],
+  "/AppApiStack/AppApi/Default": [
+    {
+      "type": "aws:cdk:analytics:construct",
+      "data": "*"
+    }
+  ],
+  "/AppApiStack/AppApi/AdminApiKey": [
+    {
+      "type": "aws:cdk:analytics:construct",
+      "data": {
+        "stages": [
+          "*"
+        ]
+      }
+    }
+  ],
+  "/AppApiStack/AppApi/AdminUsagePlan": [
+    {
+      "type": "aws:cdk:analytics:construct",
+      "data": {
+        "name": "*"
+      }
+    },
+    {
+      "type": "aws:cdk:analytics:method",
+      "data": {
+        "addApiStage": [
+          {}
+        ]
+      }
+    }
+  ],
+  "/AppApiStack/CDKMetadata/Default": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "CDKMetadata"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib, node internals...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/AppApiStack/GetMovieRolesFn/ServiceRole/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "GetMovieRolesFnServiceRole6951E04D"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...new NodejsFunction in aws-cdk-lib...",
+        "appFn (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\lib\\app-api-stack.ts:29:7)",
+        "new AppApiStack (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\lib\\app-api-stack.ts:43:29)",
+        "<anonymous> (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\bin\\assignment.ts:11:1)",
+        "<anonymous> (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\bin\\assignment.ts:15:2)",
+        "...node internals..."
+      ]
+    }
+  ],
+  "/AppApiStack/GetMovieRolesFn/ServiceRole/DefaultPolicy": [
+    {
+      "type": "aws:cdk:analytics:construct",
+      "data": "*"
+    },
+    {
+      "type": "aws:cdk:analytics:method",
+      "data": {
+        "attachToRole": [
+          "*"
+        ]
+      }
+    },
+    {
+      "type": "aws:cdk:analytics:method",
+      "data": {
+        "attachToRole": [
+          "*"
+        ]
+      }
+    },
+    {
+      "type": "aws:cdk:analytics:method",
+      "data": {
+        "addStatements": [
+          {}
+        ]
+      }
+    },
+    {
+      "type": "aws:cdk:analytics:method",
+      "data": {
+        "addStatements": [
+          {}
+        ]
+      }
+    }
+  ],
+  "/AppApiStack/GetMovieRolesFn/Code/AssetBucket": [
+    {
+      "type": "aws:cdk:analytics:construct",
+      "data": "*"
+    }
+  ],
+  "/AppApiStack/GetMovieRolesFn/LogGroup/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "GetMovieRolesFnLogGroupAA1A0F61"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...new NodejsFunction in aws-cdk-lib...",
+        "appFn (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\lib\\app-api-stack.ts:29:7)",
+        "new AppApiStack (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\lib\\app-api-stack.ts:43:29)",
+        "<anonymous> (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\bin\\assignment.ts:11:1)",
+        "<anonymous> (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\bin\\assignment.ts:15:2)",
+        "...node internals..."
+      ]
+    }
+  ],
+  "/AppApiStack/GetActorFn/ServiceRole/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "GetActorFnServiceRoleA2FCA0F2"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...new NodejsFunction in aws-cdk-lib...",
+        "appFn (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\lib\\app-api-stack.ts:29:7)",
+        "new AppApiStack (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\lib\\app-api-stack.ts:44:24)",
+        "<anonymous> (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\bin\\assignment.ts:11:1)",
+        "<anonymous> (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\bin\\assignment.ts:15:2)",
+        "...node internals..."
+      ]
+    }
+  ],
+  "/AppApiStack/GetActorFn/ServiceRole/DefaultPolicy": [
+    {
+      "type": "aws:cdk:analytics:construct",
+      "data": "*"
+    },
+    {
+      "type": "aws:cdk:analytics:method",
+      "data": {
+        "attachToRole": [
+          "*"
+        ]
+      }
+    },
+    {
+      "type": "aws:cdk:analytics:method",
+      "data": {
+        "attachToRole": [
+          "*"
+        ]
+      }
+    },
+    {
+      "type": "aws:cdk:analytics:method",
+      "data": {
+        "addStatements": [
+          {}
+        ]
+      }
+    },
+    {
+      "type": "aws:cdk:analytics:method",
+      "data": {
+        "addStatements": [
+          {}
+        ]
+      }
+    }
+  ],
+  "/AppApiStack/GetActorFn/Code/AssetBucket": [
+    {
+      "type": "aws:cdk:analytics:construct",
+      "data": "*"
+    }
+  ],
+  "/AppApiStack/GetActorFn/LogGroup/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "GetActorFnLogGroupF395DDE5"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...new NodejsFunction in aws-cdk-lib...",
+        "appFn (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\lib\\app-api-stack.ts:29:7)",
+        "new AppApiStack (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\lib\\app-api-stack.ts:44:24)",
+        "<anonymous> (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\bin\\assignment.ts:11:1)",
+        "<anonymous> (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\bin\\assignment.ts:15:2)",
+        "...node internals..."
+      ]
+    }
+  ],
+  "/AppApiStack/AddMovieRoleFn/ServiceRole/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "AddMovieRoleFnServiceRole603352EE"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...new NodejsFunction in aws-cdk-lib...",
+        "appFn (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\lib\\app-api-stack.ts:29:7)",
+        "new AppApiStack (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\lib\\app-api-stack.ts:45:28)",
+        "<anonymous> (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\bin\\assignment.ts:11:1)",
+        "<anonymous> (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\bin\\assignment.ts:15:2)",
+        "...node internals..."
+      ]
+    }
+  ],
+  "/AppApiStack/AddMovieRoleFn/ServiceRole/DefaultPolicy": [
+    {
+      "type": "aws:cdk:analytics:construct",
+      "data": "*"
+    },
+    {
+      "type": "aws:cdk:analytics:method",
+      "data": {
+        "attachToRole": [
+          "*"
+        ]
+      }
+    },
+    {
+      "type": "aws:cdk:analytics:method",
+      "data": {
+        "attachToRole": [
+          "*"
+        ]
+      }
+    },
+    {
+      "type": "aws:cdk:analytics:method",
+      "data": {
+        "addStatements": [
+          {}
+        ]
+      }
+    },
+    {
+      "type": "aws:cdk:analytics:method",
+      "data": {
+        "addStatements": [
+          {}
+        ]
+      }
+    }
+  ],
+  "/AppApiStack/AddMovieRoleFn/Code/AssetBucket": [
+    {
+      "type": "aws:cdk:analytics:construct",
+      "data": "*"
+    }
+  ],
+  "/AppApiStack/AddMovieRoleFn/LogGroup/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "AddMovieRoleFnLogGroup462EAC93"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...new NodejsFunction in aws-cdk-lib...",
+        "appFn (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\lib\\app-api-stack.ts:29:7)",
+        "new AppApiStack (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\lib\\app-api-stack.ts:45:28)",
+        "<anonymous> (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\bin\\assignment.ts:11:1)",
+        "<anonymous> (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\bin\\assignment.ts:15:2)",
+        "...node internals..."
+      ]
+    }
+  ],
+  "/AppApiStack/AuthorizerFn/ServiceRole/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "AuthorizerFnServiceRole91AE9242"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...new NodejsFunction in aws-cdk-lib...",
+        "appFn (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\lib\\app-api-stack.ts:29:7)",
+        "new AppApiStack (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\lib\\app-api-stack.ts:46:26)",
+        "<anonymous> (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\bin\\assignment.ts:11:1)",
+        "<anonymous> (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\bin\\assignment.ts:15:2)",
+        "...node internals..."
+      ]
+    }
+  ],
+  "/AppApiStack/AuthorizerFn/Code/AssetBucket": [
+    {
+      "type": "aws:cdk:analytics:construct",
+      "data": "*"
+    }
+  ],
+  "/AppApiStack/AuthorizerFn/LogGroup/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "AuthorizerFnLogGroupA5DB7646"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...new NodejsFunction in aws-cdk-lib...",
+        "appFn (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\lib\\app-api-stack.ts:29:7)",
+        "new AppApiStack (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\lib\\app-api-stack.ts:46:26)",
+        "<anonymous> (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\bin\\assignment.ts:11:1)",
+        "<anonymous> (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\bin\\assignment.ts:15:2)",
+        "...node internals..."
+      ]
+    }
+  ],
+  "/AppApiStack/SeedMovieCastData/Resource/Default": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "SeedMovieCastDataAFE74BD3"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...new AwsCustomResource2 in aws-cdk-lib...",
+        "new AppApiStack (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\lib\\app-api-stack.ts:58:20)",
+        "<anonymous> (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\bin\\assignment.ts:11:1)",
+        "<anonymous> (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\bin\\assignment.ts:15:2)",
+        "...node internals, tsx..."
+      ]
+    }
+  ],
+  "/AppApiStack/SeedMovieCastData/CustomResourcePolicy/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "SeedMovieCastDataCustomResourcePolicy2EF02E0A"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...new AwsCustomResource2 in aws-cdk-lib...",
+        "new AppApiStack (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\lib\\app-api-stack.ts:58:20)",
+        "<anonymous> (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\bin\\assignment.ts:11:1)",
+        "<anonymous> (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\bin\\assignment.ts:15:2)",
+        "...node internals, tsx..."
+      ]
+    }
+  ],
+  "/AppApiStack/AWS679f53fac002430cb0da5b7982bd2287/ServiceRole/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "AWS679f53fac002430cb0da5b7982bd2287ServiceRoleC1EA0FF2"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/AppApiStack/AWS679f53fac002430cb0da5b7982bd2287/Code/AssetBucket": [
+    {
+      "type": "aws:cdk:analytics:construct",
+      "data": "*"
+    }
+  ],
+  "/AppApiStack/AWS679f53fac002430cb0da5b7982bd2287/LogGroup/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "AWS679f53fac002430cb0da5b7982bd2287LogGroup449FB7C2"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/AppApiStack/AppApi/Deployment/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "AppApiDeployment7658F3137dcaa1874591f712fac035c26b7d7708"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...new RestApi2 in aws-cdk-lib...",
+        "new AppApiStack (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\lib\\app-api-stack.ts:79:17)",
+        "<anonymous> (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\bin\\assignment.ts:11:1)",
+        "<anonymous> (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\bin\\assignment.ts:15:2)",
+        "...node internals..."
+      ]
+    }
+  ],
+  "/AppApiStack/AppApi/DeploymentStage.dev/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "AppApiDeploymentStagedev6C133D41"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...new RestApi2 in aws-cdk-lib...",
+        "new AppApiStack (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\lib\\app-api-stack.ts:79:17)",
+        "<anonymous> (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\bin\\assignment.ts:11:1)",
+        "<anonymous> (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\bin\\assignment.ts:15:2)",
+        "...node internals..."
+      ]
+    }
+  ],
+  "/AppApiStack/AppApi/Default/OPTIONS": [
+    {
+      "type": "aws:cdk:analytics:construct",
+      "data": {
+        "resource": "*",
+        "httpMethod": "*",
+        "integration": "*",
+        "options": {
+          "authorizer": {
+            "authorizerId": "*",
+            "authorizationType": "*"
+          },
+          "apiKeyRequired": false,
+          "authorizationType": "*",
+          "methodResponses": [
+            {
+              "statusCode": "*",
+              "responseParameters": "*"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "type": "aws:cdk:analytics:method",
+      "data": {
+        "addMethodResponse": [
+          {
+            "statusCode": "*",
+            "responseParameters": "*"
+          }
+        ]
+      }
+    }
+  ],
+  "/AppApiStack/AppApi/Default/movies": [
+    {
+      "type": "aws:cdk:analytics:construct",
+      "data": {
+        "parent": "*",
+        "pathPart": "*"
+      }
+    }
+  ],
+  "/AppApiStack/AppApi/Default/actors": [
+    {
+      "type": "aws:cdk:analytics:construct",
+      "data": {
+        "parent": "*",
+        "pathPart": "*"
+      }
+    }
+  ],
+  "/AppApiStack/AppApi/AdminApiKey/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "AppApiAdminApiKeyBAE45DA0"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...PropertyInjectable.addApiKey in aws-cdk-lib...",
+        "new AppApiStack (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\lib\\app-api-stack.ts:91:29)",
+        "<anonymous> (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\bin\\assignment.ts:11:1)",
+        "<anonymous> (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\bin\\assignment.ts:15:2)",
+        "...node internals, tsx..."
+      ]
+    }
+  ],
+  "/AppApiStack/AppApi/AdminUsagePlan/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "AppApiAdminUsagePlan200C3E28"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...PropertyInjectable.addUsagePlan in aws-cdk-lib...",
+        "new AppApiStack (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\lib\\app-api-stack.ts:92:27)",
+        "<anonymous> (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\bin\\assignment.ts:11:1)",
+        "<anonymous> (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\bin\\assignment.ts:15:2)",
+        "...node internals, tsx..."
+      ]
+    }
+  ],
+  "/AppApiStack/AppApi/AdminUsagePlan/UsagePlanKeyResource:AppApiStackAppApiAdminApiKey1C29DF35": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "AppApiAdminUsagePlanUsagePlanKeyResourceAppApiStackAppApiAdminApiKey1C29DF357AED4836"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...PropertyInjectable.addApiKey in aws-cdk-lib...",
+        "new AppApiStack (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\lib\\app-api-stack.ts:96:15)",
+        "<anonymous> (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\bin\\assignment.ts:11:1)",
+        "<anonymous> (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\bin\\assignment.ts:15:2)",
+        "...node internals, tsx..."
+      ]
+    }
+  ],
+  "/AppApiStack/GetMovieRolesFn/ServiceRole/DefaultPolicy/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "GetMovieRolesFnServiceRoleDefaultPolicy84E9C2A1"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...PropertyInjectable.grantReadData in aws-cdk-lib...",
+        "new AppApiStack (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\lib\\app-api-stack.ts:51:11)"
+      ]
+    }
+  ],
+  "/AppApiStack/GetActorFn/ServiceRole/DefaultPolicy/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "GetActorFnServiceRoleDefaultPolicy6327FFF5"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...PropertyInjectable.grantReadData in aws-cdk-lib...",
+        "new AppApiStack (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\lib\\app-api-stack.ts:52:11)"
+      ]
+    }
+  ],
+  "/AppApiStack/AddMovieRoleFn/ServiceRole/DefaultPolicy/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "AddMovieRoleFnServiceRoleDefaultPolicyD4C826A2"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...PropertyInjectable.grantReadWriteData in aws-cdk-lib...",
+        "new AppApiStack (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\lib\\app-api-stack.ts:53:11)"
+      ]
+    }
+  ],
+  "/AppApiStack/AppApi/Default/OPTIONS/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "AppApiOPTIONS26B60D0C"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...new RestApi2 in aws-cdk-lib...",
+        "new AppApiStack (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\lib\\app-api-stack.ts:79:17)"
+      ]
+    }
+  ],
+  "/AppApiStack/AppApi/Default/movies/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "AppApimovies1775F38D"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...RootResource.addResource in aws-cdk-lib...",
+        "new AppApiStack (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\lib\\app-api-stack.ts:105:37)",
+        "<anonymous> (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\bin\\assignment.ts:11:1)",
+        "<anonymous> (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\bin\\assignment.ts:15:2)",
+        "...node internals, tsx..."
+      ]
+    }
+  ],
+  "/AppApiStack/AppApi/Default/movies/OPTIONS": [
+    {
+      "type": "aws:cdk:analytics:construct",
+      "data": {
+        "resource": "*",
+        "httpMethod": "*",
+        "integration": "*",
+        "options": {
+          "authorizer": {
+            "authorizerId": "*",
+            "authorizationType": "*"
+          },
+          "apiKeyRequired": false,
+          "authorizationType": "*",
+          "methodResponses": [
+            {
+              "statusCode": "*",
+              "responseParameters": "*"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "type": "aws:cdk:analytics:method",
+      "data": {
+        "addMethodResponse": [
+          {
+            "statusCode": "*",
+            "responseParameters": "*"
+          }
+        ]
+      }
+    }
+  ],
+  "/AppApiStack/AppApi/Default/movies/roles": [
+    {
+      "type": "aws:cdk:analytics:construct",
+      "data": {
+        "parent": "*",
+        "pathPart": "*"
+      }
+    }
+  ],
+  "/AppApiStack/AppApi/Default/movies/{movieID}": [
+    {
+      "type": "aws:cdk:analytics:construct",
+      "data": {
+        "parent": "*",
+        "pathPart": "*"
+      }
+    }
+  ],
+  "/AppApiStack/AppApi/Default/actors/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "AppApiactors1E8B294C"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...RootResource.addResource in aws-cdk-lib...",
+        "new AppApiStack (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\lib\\app-api-stack.ts:111:8)",
+        "<anonymous> (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\bin\\assignment.ts:11:1)",
+        "<anonymous> (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\bin\\assignment.ts:15:2)",
+        "...node internals, tsx..."
+      ]
+    }
+  ],
+  "/AppApiStack/AppApi/Default/actors/OPTIONS": [
+    {
+      "type": "aws:cdk:analytics:construct",
+      "data": {
+        "resource": "*",
+        "httpMethod": "*",
+        "integration": "*",
+        "options": {
+          "authorizer": {
+            "authorizerId": "*",
+            "authorizationType": "*"
+          },
+          "apiKeyRequired": false,
+          "authorizationType": "*",
+          "methodResponses": [
+            {
+              "statusCode": "*",
+              "responseParameters": "*"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "type": "aws:cdk:analytics:method",
+      "data": {
+        "addMethodResponse": [
+          {
+            "statusCode": "*",
+            "responseParameters": "*"
+          }
+        ]
+      }
+    }
+  ],
+  "/AppApiStack/AppApi/Default/actors/{actorID}": [
+    {
+      "type": "aws:cdk:analytics:construct",
+      "data": {
+        "parent": "*",
+        "pathPart": "*"
+      }
+    }
+  ],
+  "/AppApiStack/AppApi/Default/movies/OPTIONS/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "AppApimoviesOPTIONSE1BEAF46"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...RootResource.addResource in aws-cdk-lib...",
+        "new AppApiStack (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\lib\\app-api-stack.ts:105:37)",
+        "<anonymous> (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\bin\\assignment.ts:11:1)"
+      ]
+    }
+  ],
+  "/AppApiStack/AppApi/Default/movies/roles/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "AppApimoviesroles54280EEE"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...PropertyInjectable.addResource in aws-cdk-lib...",
+        "new AppApiStack (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\lib\\app-api-stack.ts:106:44)",
+        "<anonymous> (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\bin\\assignment.ts:11:1)",
+        "<anonymous> (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\bin\\assignment.ts:15:2)",
+        "...node internals, tsx..."
+      ]
+    }
+  ],
+  "/AppApiStack/AppApi/Default/movies/roles/OPTIONS": [
+    {
+      "type": "aws:cdk:analytics:construct",
+      "data": {
+        "resource": "*",
+        "httpMethod": "*",
+        "integration": "*",
+        "options": {
+          "authorizer": {
+            "authorizerId": "*",
+            "authorizationType": "*"
+          },
+          "apiKeyRequired": false,
+          "authorizationType": "*",
+          "methodResponses": [
+            {
+              "statusCode": "*",
+              "responseParameters": "*"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "type": "aws:cdk:analytics:method",
+      "data": {
+        "addMethodResponse": [
+          {
+            "statusCode": "*",
+            "responseParameters": "*"
+          }
+        ]
+      }
+    }
+  ],
+  "/AppApiStack/AppApi/Default/movies/roles/POST": [
+    {
+      "type": "aws:cdk:analytics:construct",
+      "data": {
+        "resource": "*",
+        "httpMethod": "*",
+        "integration": "*",
+        "options": {
+          "apiKeyRequired": true
+        }
+      }
+    }
+  ],
+  "/AppApiStack/AppApi/Default/movies/{movieID}/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "AppApimoviesmovieID81CE4C22"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...PropertyInjectable.addResource in aws-cdk-lib...",
+        "new AppApiStack (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\lib\\app-api-stack.ts:107:47)",
+        "<anonymous> (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\bin\\assignment.ts:11:1)",
+        "<anonymous> (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\bin\\assignment.ts:15:2)",
+        "...node internals, tsx..."
+      ]
+    }
+  ],
+  "/AppApiStack/AppApi/Default/movies/{movieID}/OPTIONS": [
+    {
+      "type": "aws:cdk:analytics:construct",
+      "data": {
+        "resource": "*",
+        "httpMethod": "*",
+        "integration": "*",
+        "options": {
+          "authorizer": {
+            "authorizerId": "*",
+            "authorizationType": "*"
+          },
+          "apiKeyRequired": false,
+          "authorizationType": "*",
+          "methodResponses": [
+            {
+              "statusCode": "*",
+              "responseParameters": "*"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "type": "aws:cdk:analytics:method",
+      "data": {
+        "addMethodResponse": [
+          {
+            "statusCode": "*",
+            "responseParameters": "*"
+          }
+        ]
+      }
+    }
+  ],
+  "/AppApiStack/AppApi/Default/movies/{movieID}/roles": [
+    {
+      "type": "aws:cdk:analytics:construct",
+      "data": {
+        "parent": "*",
+        "pathPart": "*"
+      }
+    }
+  ],
+  "/AppApiStack/AppApi/Default/actors/OPTIONS/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "AppApiactorsOPTIONS3BB989DA"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...RootResource.addResource in aws-cdk-lib...",
+        "new AppApiStack (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\lib\\app-api-stack.ts:111:8)",
+        "<anonymous> (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\bin\\assignment.ts:11:1)"
+      ]
+    }
+  ],
+  "/AppApiStack/AppApi/Default/actors/{actorID}/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "AppApiactorsactorIDB0913830"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...PropertyInjectable.addResource in aws-cdk-lib...",
+        "new AppApiStack (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\lib\\app-api-stack.ts:112:8)",
+        "<anonymous> (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\bin\\assignment.ts:11:1)",
+        "<anonymous> (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\bin\\assignment.ts:15:2)",
+        "...node internals, tsx..."
+      ]
+    }
+  ],
+  "/AppApiStack/AppApi/Default/actors/{actorID}/OPTIONS": [
+    {
+      "type": "aws:cdk:analytics:construct",
+      "data": {
+        "resource": "*",
+        "httpMethod": "*",
+        "integration": "*",
+        "options": {
+          "authorizer": {
+            "authorizerId": "*",
+            "authorizationType": "*"
+          },
+          "apiKeyRequired": false,
+          "authorizationType": "*",
+          "methodResponses": [
+            {
+              "statusCode": "*",
+              "responseParameters": "*"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "type": "aws:cdk:analytics:method",
+      "data": {
+        "addMethodResponse": [
+          {
+            "statusCode": "*",
+            "responseParameters": "*"
+          }
+        ]
+      }
+    }
+  ],
+  "/AppApiStack/AppApi/Default/actors/{actorID}/GET": [
+    {
+      "type": "aws:cdk:analytics:construct",
+      "data": {
+        "resource": "*",
+        "httpMethod": "*",
+        "integration": "*",
+        "options": {
+          "authorizer": "*",
+          "authorizationType": "*"
+        }
+      }
+    }
+  ],
+  "/AppApiStack/AppApi/Default/movies/roles/OPTIONS/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "AppApimoviesrolesOPTIONSEF54D4A3"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...PropertyInjectable.addResource in aws-cdk-lib...",
+        "new AppApiStack (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\lib\\app-api-stack.ts:106:44)",
+        "<anonymous> (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\bin\\assignment.ts:11:1)"
+      ]
+    }
+  ],
+  "/AppApiStack/AppApi/Default/movies/roles/POST/ApiPermission.AppApiStackAppApi3D3D54B8.POST..movies.roles": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "AppApimoviesrolesPOSTApiPermissionAppApiStackAppApi3D3D54B8POSTmoviesrolesA02295E8"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...PropertyInjectable.addMethod in aws-cdk-lib...",
+        "new AppApiStack (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\lib\\app-api-stack.ts:109:21)",
+        "<anonymous> (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\bin\\assignment.ts:11:1)",
+        "<anonymous> (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\bin\\assignment.ts:15:2)",
+        "...node internals..."
+      ]
+    }
+  ],
+  "/AppApiStack/AppApi/Default/movies/roles/POST/ApiPermission.Test.AppApiStackAppApi3D3D54B8.POST..movies.roles": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "AppApimoviesrolesPOSTApiPermissionTestAppApiStackAppApi3D3D54B8POSTmoviesroles197CD4FD"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...PropertyInjectable.addMethod in aws-cdk-lib...",
+        "new AppApiStack (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\lib\\app-api-stack.ts:109:21)",
+        "<anonymous> (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\bin\\assignment.ts:11:1)",
+        "<anonymous> (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\bin\\assignment.ts:15:2)",
+        "...node internals..."
+      ]
+    }
+  ],
+  "/AppApiStack/AppApi/Default/movies/roles/POST/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "AppApimoviesrolesPOST97E4CE12"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...PropertyInjectable.addMethod in aws-cdk-lib...",
+        "new AppApiStack (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\lib\\app-api-stack.ts:109:21)",
+        "<anonymous> (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\bin\\assignment.ts:11:1)",
+        "<anonymous> (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\bin\\assignment.ts:15:2)",
+        "...node internals, tsx..."
+      ]
+    }
+  ],
+  "/AppApiStack/AppApi/Default/movies/{movieID}/OPTIONS/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "AppApimoviesmovieIDOPTIONS0E17BE6F"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...PropertyInjectable.addResource in aws-cdk-lib...",
+        "new AppApiStack (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\lib\\app-api-stack.ts:107:47)",
+        "<anonymous> (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\bin\\assignment.ts:11:1)"
+      ]
+    }
+  ],
+  "/AppApiStack/AppApi/Default/movies/{movieID}/roles/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "AppApimoviesmovieIDrolesA6C7804C"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...PropertyInjectable.addResource in aws-cdk-lib...",
+        "new AppApiStack (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\lib\\app-api-stack.ts:107:72)",
+        "<anonymous> (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\bin\\assignment.ts:11:1)",
+        "<anonymous> (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\bin\\assignment.ts:15:2)",
+        "...node internals, tsx..."
+      ]
+    }
+  ],
+  "/AppApiStack/AppApi/Default/movies/{movieID}/roles/OPTIONS": [
+    {
+      "type": "aws:cdk:analytics:construct",
+      "data": {
+        "resource": "*",
+        "httpMethod": "*",
+        "integration": "*",
+        "options": {
+          "authorizer": {
+            "authorizerId": "*",
+            "authorizationType": "*"
+          },
+          "apiKeyRequired": false,
+          "authorizationType": "*",
+          "methodResponses": [
+            {
+              "statusCode": "*",
+              "responseParameters": "*"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "type": "aws:cdk:analytics:method",
+      "data": {
+        "addMethodResponse": [
+          {
+            "statusCode": "*",
+            "responseParameters": "*"
+          }
+        ]
+      }
+    }
+  ],
+  "/AppApiStack/AppApi/Default/movies/{movieID}/roles/GET": [
+    {
+      "type": "aws:cdk:analytics:construct",
+      "data": {
+        "resource": "*",
+        "httpMethod": "*",
+        "integration": "*",
+        "options": {
+          "authorizer": "*",
+          "authorizationType": "*"
+        }
+      }
+    }
+  ],
+  "/AppApiStack/AppApi/Default/actors/{actorID}/OPTIONS/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "AppApiactorsactorIDOPTIONS7F91C6FE"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...PropertyInjectable.addResource in aws-cdk-lib...",
+        "new AppApiStack (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\lib\\app-api-stack.ts:112:8)",
+        "<anonymous> (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\bin\\assignment.ts:11:1)"
+      ]
+    }
+  ],
+  "/AppApiStack/AppApi/Default/actors/{actorID}/GET/ApiPermission.AppApiStackAppApi3D3D54B8.GET..actors.{actorID}": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "AppApiactorsactorIDGETApiPermissionAppApiStackAppApi3D3D54B8GETactorsactorIDE9178FC3"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...PropertyInjectable.addMethod in aws-cdk-lib...",
+        "new AppApiStack (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\lib\\app-api-stack.ts:113:8)",
+        "<anonymous> (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\bin\\assignment.ts:11:1)",
+        "<anonymous> (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\bin\\assignment.ts:15:2)",
+        "...node internals..."
+      ]
+    }
+  ],
+  "/AppApiStack/AppApi/Default/actors/{actorID}/GET/ApiPermission.Test.AppApiStackAppApi3D3D54B8.GET..actors.{actorID}": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "AppApiactorsactorIDGETApiPermissionTestAppApiStackAppApi3D3D54B8GETactorsactorID015D84C6"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...PropertyInjectable.addMethod in aws-cdk-lib...",
+        "new AppApiStack (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\lib\\app-api-stack.ts:113:8)",
+        "<anonymous> (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\bin\\assignment.ts:11:1)",
+        "<anonymous> (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\bin\\assignment.ts:15:2)",
+        "...node internals..."
+      ]
+    }
+  ],
+  "/AppApiStack/AppApi/Default/actors/{actorID}/GET/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "AppApiactorsactorIDGETC576C7F5"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...PropertyInjectable.addMethod in aws-cdk-lib...",
+        "new AppApiStack (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\lib\\app-api-stack.ts:113:8)",
+        "<anonymous> (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\bin\\assignment.ts:11:1)",
+        "<anonymous> (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\bin\\assignment.ts:15:2)",
+        "...node internals, tsx..."
+      ]
+    }
+  ],
+  "/AppApiStack/AppApi/Default/movies/{movieID}/roles/OPTIONS/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "AppApimoviesmovieIDrolesOPTIONSE9CF92D5"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...PropertyInjectable.addResource in aws-cdk-lib...",
+        "new AppApiStack (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\lib\\app-api-stack.ts:107:72)",
+        "<anonymous> (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\bin\\assignment.ts:11:1)"
+      ]
+    }
+  ],
+  "/AppApiStack/AppApi/Default/movies/{movieID}/roles/GET/ApiPermission.AppApiStackAppApi3D3D54B8.GET..movies.{movieID}.roles": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "AppApimoviesmovieIDrolesGETApiPermissionAppApiStackAppApi3D3D54B8GETmoviesmovieIDroles2A6385DD"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...PropertyInjectable.addMethod in aws-cdk-lib...",
+        "new AppApiStack (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\lib\\app-api-stack.ts:108:24)",
+        "<anonymous> (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\bin\\assignment.ts:11:1)",
+        "<anonymous> (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\bin\\assignment.ts:15:2)",
+        "...node internals..."
+      ]
+    }
+  ],
+  "/AppApiStack/AppApi/Default/movies/{movieID}/roles/GET/ApiPermission.Test.AppApiStackAppApi3D3D54B8.GET..movies.{movieID}.roles": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "AppApimoviesmovieIDrolesGETApiPermissionTestAppApiStackAppApi3D3D54B8GETmoviesmovieIDroles4D410278"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...PropertyInjectable.addMethod in aws-cdk-lib...",
+        "new AppApiStack (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\lib\\app-api-stack.ts:108:24)",
+        "<anonymous> (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\bin\\assignment.ts:11:1)",
+        "<anonymous> (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\bin\\assignment.ts:15:2)",
+        "...node internals..."
+      ]
+    }
+  ],
+  "/AppApiStack/AppApi/Default/movies/{movieID}/roles/GET/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "AppApimoviesmovieIDrolesGETF9EC7DE9"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...PropertyInjectable.addMethod in aws-cdk-lib...",
+        "new AppApiStack (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\lib\\app-api-stack.ts:108:24)",
+        "<anonymous> (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\bin\\assignment.ts:11:1)",
+        "<anonymous> (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\bin\\assignment.ts:15:2)",
+        "...node internals, tsx..."
+      ]
+    }
+  ]
+}

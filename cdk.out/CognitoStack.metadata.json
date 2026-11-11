@@ -1,0 +1,1533 @@
+{
+  "/CognitoStack": [
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "<anonymous> (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\bin\\assignment.ts:9:22)",
+        "<anonymous> (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\bin\\assignment.ts:15:2)",
+        "...node internals, tsx..."
+      ]
+    }
+  ],
+  "/CognitoStack/UserPool": [
+    {
+      "type": "aws:cdk:analytics:construct",
+      "data": {
+        "signInAliases": {
+          "username": true,
+          "email": true
+        },
+        "selfSignUpEnabled": true,
+        "autoVerify": {
+          "email": true
+        },
+        "removalPolicy": "destroy"
+      }
+    }
+  ],
+  "/CognitoStack/AuthApi": [
+    {
+      "type": "aws:cdk:analytics:construct",
+      "data": {
+        "description": "*",
+        "endpointTypes": [
+          "REGIONAL"
+        ],
+        "defaultCorsPreflightOptions": {
+          "allowOrigins": "*"
+        }
+      }
+    }
+  ],
+  "/CognitoStack/SignupFn": [
+    {
+      "type": "aws:cdk:analytics:construct",
+      "data": {
+        "architecture": "*",
+        "runtime": "*",
+        "entry": "*",
+        "timeout": "*",
+        "memorySize": "*",
+        "environment": "*",
+        "code": "*",
+        "handler": "*"
+      }
+    },
+    {
+      "type": "aws:cdk:analytics:method",
+      "data": {}
+    },
+    {
+      "type": "aws:cdk:analytics:method",
+      "data": {}
+    },
+    {
+      "type": "aws:cdk:analytics:method",
+      "data": {}
+    },
+    {
+      "type": "aws:cdk:analytics:construct",
+      "data": {
+        "architecture": "*",
+        "runtime": "*",
+        "entry": "*",
+        "timeout": "*",
+        "memorySize": "*",
+        "environment": "*"
+      }
+    }
+  ],
+  "/CognitoStack/ConfirmSignupFn": [
+    {
+      "type": "aws:cdk:analytics:construct",
+      "data": {
+        "architecture": "*",
+        "runtime": "*",
+        "entry": "*",
+        "timeout": "*",
+        "memorySize": "*",
+        "environment": "*",
+        "code": "*",
+        "handler": "*"
+      }
+    },
+    {
+      "type": "aws:cdk:analytics:method",
+      "data": {}
+    },
+    {
+      "type": "aws:cdk:analytics:method",
+      "data": {}
+    },
+    {
+      "type": "aws:cdk:analytics:method",
+      "data": {}
+    },
+    {
+      "type": "aws:cdk:analytics:construct",
+      "data": {
+        "architecture": "*",
+        "runtime": "*",
+        "entry": "*",
+        "timeout": "*",
+        "memorySize": "*",
+        "environment": "*"
+      }
+    }
+  ],
+  "/CognitoStack/SigninFn": [
+    {
+      "type": "aws:cdk:analytics:construct",
+      "data": {
+        "architecture": "*",
+        "runtime": "*",
+        "entry": "*",
+        "timeout": "*",
+        "memorySize": "*",
+        "environment": "*",
+        "code": "*",
+        "handler": "*"
+      }
+    },
+    {
+      "type": "aws:cdk:analytics:method",
+      "data": {}
+    },
+    {
+      "type": "aws:cdk:analytics:method",
+      "data": {}
+    },
+    {
+      "type": "aws:cdk:analytics:method",
+      "data": {}
+    },
+    {
+      "type": "aws:cdk:analytics:construct",
+      "data": {
+        "architecture": "*",
+        "runtime": "*",
+        "entry": "*",
+        "timeout": "*",
+        "memorySize": "*",
+        "environment": "*"
+      }
+    }
+  ],
+  "/CognitoStack/SignoutFn": [
+    {
+      "type": "aws:cdk:analytics:construct",
+      "data": {
+        "architecture": "*",
+        "runtime": "*",
+        "entry": "*",
+        "timeout": "*",
+        "memorySize": "*",
+        "environment": "*",
+        "code": "*",
+        "handler": "*"
+      }
+    },
+    {
+      "type": "aws:cdk:analytics:method",
+      "data": {}
+    },
+    {
+      "type": "aws:cdk:analytics:method",
+      "data": {}
+    },
+    {
+      "type": "aws:cdk:analytics:method",
+      "data": {}
+    },
+    {
+      "type": "aws:cdk:analytics:construct",
+      "data": {
+        "architecture": "*",
+        "runtime": "*",
+        "entry": "*",
+        "timeout": "*",
+        "memorySize": "*",
+        "environment": "*"
+      }
+    }
+  ],
+  "/CognitoStack/AuthApiUrl": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "AuthApiUrl"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "new CognitoStack (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\lib\\cognito-stack.ts:64:5)",
+        "<anonymous> (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\bin\\assignment.ts:9:22)",
+        "<anonymous> (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\bin\\assignment.ts:15:2)",
+        "...node internals, tsx..."
+      ]
+    }
+  ],
+  "/CognitoStack/UserPoolId": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "UserPoolId"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "new CognitoStack (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\lib\\cognito-stack.ts:65:5)",
+        "<anonymous> (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\bin\\assignment.ts:9:22)",
+        "<anonymous> (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\bin\\assignment.ts:15:2)",
+        "...node internals, tsx..."
+      ]
+    }
+  ],
+  "/CognitoStack/UserPoolClientId": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "UserPoolClientId"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "new CognitoStack (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\lib\\cognito-stack.ts:66:5)",
+        "<anonymous> (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\bin\\assignment.ts:9:22)",
+        "<anonymous> (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\bin\\assignment.ts:15:2)",
+        "...node internals, tsx..."
+      ]
+    }
+  ],
+  "/CognitoStack/BootstrapVersion": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "BootstrapVersion"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/CognitoStack/CheckBootstrapVersion": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "CheckBootstrapVersion"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/CognitoStack/UserPool/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "UserPool6BA7E5F2"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...new UserPool2 in aws-cdk-lib...",
+        "new CognitoStack (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\lib\\cognito-stack.ts:16:21)",
+        "<anonymous> (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\bin\\assignment.ts:9:22)",
+        "<anonymous> (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\bin\\assignment.ts:15:2)",
+        "...node internals, tsx..."
+      ]
+    }
+  ],
+  "/CognitoStack/UserPool/AppClient": [
+    {
+      "type": "aws:cdk:analytics:construct",
+      "data": {
+        "userPool": "*",
+        "authFlows": {
+          "userPassword": true
+        }
+      }
+    }
+  ],
+  "/CognitoStack/AuthApi/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "AuthApi4BD72F20"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...new RestApi2 in aws-cdk-lib...",
+        "new CognitoStack (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\lib\\cognito-stack.ts:27:21)",
+        "<anonymous> (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\bin\\assignment.ts:9:22)",
+        "<anonymous> (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\bin\\assignment.ts:15:2)",
+        "...node internals, tsx..."
+      ]
+    }
+  ],
+  "/CognitoStack/AuthApi/Deployment": [
+    {
+      "type": "aws:cdk:analytics:construct",
+      "data": {
+        "description": "*",
+        "api": "*",
+        "retainDeployments": "*"
+      }
+    },
+    {
+      "type": "aws:cdk:analytics:method",
+      "data": {
+        "addToLogicalId": [
+          {}
+        ]
+      }
+    },
+    {
+      "type": "aws:cdk:analytics:method",
+      "data": {
+        "addToLogicalId": [
+          {}
+        ]
+      }
+    },
+    {
+      "type": "aws:cdk:analytics:method",
+      "data": {
+        "addToLogicalId": [
+          {}
+        ]
+      }
+    },
+    {
+      "type": "aws:cdk:analytics:method",
+      "data": {
+        "addToLogicalId": [
+          {}
+        ]
+      }
+    },
+    {
+      "type": "aws:cdk:analytics:method",
+      "data": {
+        "addToLogicalId": [
+          {}
+        ]
+      }
+    },
+    {
+      "type": "aws:cdk:analytics:method",
+      "data": {
+        "addToLogicalId": [
+          {}
+        ]
+      }
+    },
+    {
+      "type": "aws:cdk:analytics:method",
+      "data": {
+        "addToLogicalId": [
+          {}
+        ]
+      }
+    },
+    {
+      "type": "aws:cdk:analytics:method",
+      "data": {
+        "addToLogicalId": [
+          {}
+        ]
+      }
+    },
+    {
+      "type": "aws:cdk:analytics:method",
+      "data": {
+        "addToLogicalId": [
+          {}
+        ]
+      }
+    },
+    {
+      "type": "aws:cdk:analytics:method",
+      "data": {
+        "addToLogicalId": [
+          {}
+        ]
+      }
+    },
+    {
+      "type": "aws:cdk:analytics:method",
+      "data": {
+        "addToLogicalId": [
+          {}
+        ]
+      }
+    },
+    {
+      "type": "aws:cdk:analytics:method",
+      "data": {
+        "addToLogicalId": [
+          {}
+        ]
+      }
+    },
+    {
+      "type": "aws:cdk:analytics:method",
+      "data": {
+        "addToLogicalId": [
+          {}
+        ]
+      }
+    },
+    {
+      "type": "aws:cdk:analytics:method",
+      "data": {
+        "addToLogicalId": [
+          {}
+        ]
+      }
+    },
+    {
+      "type": "aws:cdk:analytics:method",
+      "data": {
+        "addToLogicalId": [
+          {}
+        ]
+      }
+    }
+  ],
+  "/CognitoStack/AuthApi/DeploymentStage.prod": [
+    {
+      "type": "aws:cdk:analytics:construct",
+      "data": {
+        "deployment": "*"
+      }
+    }
+  ],
+  "/CognitoStack/AuthApi/Endpoint": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "AuthApiEndpointF49088BF"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...new RestApi2 in aws-cdk-lib...",
+        "new CognitoStack (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\lib\\cognito-stack.ts:27:21)",
+        "<anonymous> (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\bin\\assignment.ts:9:22)",
+        "<anonymous> (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\bin\\assignment.ts:15:2)",
+        "...node internals, tsx..."
+      ]
+    }
+  ],
+  "/CognitoStack/AuthApi/Default": [
+    {
+      "type": "aws:cdk:analytics:construct",
+      "data": "*"
+    }
+  ],
+  "/CognitoStack/SignupFn/ServiceRole": [
+    {
+      "type": "aws:cdk:analytics:construct",
+      "data": {
+        "assumedBy": {
+          "principalAccount": "*",
+          "assumeRoleAction": "*"
+        },
+        "managedPolicies": [
+          {
+            "managedPolicyArn": "*"
+          }
+        ]
+      }
+    }
+  ],
+  "/CognitoStack/SignupFn/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "SignupFn336C4F73"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...new NodejsFunction in aws-cdk-lib...",
+        "authFn (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\lib\\cognito-stack.ts:38:7)",
+        "new CognitoStack (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\lib\\cognito-stack.ts:61:55)",
+        "<anonymous> (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\bin\\assignment.ts:9:22)",
+        "<anonymous> (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\bin\\assignment.ts:15:2)",
+        "...node internals, tsx..."
+      ]
+    }
+  ],
+  "/CognitoStack/SignupFn/LogGroup": [
+    {
+      "type": "aws:cdk:analytics:construct",
+      "data": {
+        "logGroupName": "*"
+      }
+    }
+  ],
+  "/CognitoStack/ConfirmSignupFn/ServiceRole": [
+    {
+      "type": "aws:cdk:analytics:construct",
+      "data": {
+        "assumedBy": {
+          "principalAccount": "*",
+          "assumeRoleAction": "*"
+        },
+        "managedPolicies": [
+          {
+            "managedPolicyArn": "*"
+          }
+        ]
+      }
+    }
+  ],
+  "/CognitoStack/ConfirmSignupFn/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "ConfirmSignupFnDA5DE501"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...new NodejsFunction in aws-cdk-lib...",
+        "authFn (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\lib\\cognito-stack.ts:38:7)",
+        "new CognitoStack (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\lib\\cognito-stack.ts:61:55)",
+        "<anonymous> (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\bin\\assignment.ts:9:22)",
+        "<anonymous> (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\bin\\assignment.ts:15:2)",
+        "...node internals, tsx..."
+      ]
+    }
+  ],
+  "/CognitoStack/ConfirmSignupFn/LogGroup": [
+    {
+      "type": "aws:cdk:analytics:construct",
+      "data": {
+        "logGroupName": "*"
+      }
+    }
+  ],
+  "/CognitoStack/SigninFn/ServiceRole": [
+    {
+      "type": "aws:cdk:analytics:construct",
+      "data": {
+        "assumedBy": {
+          "principalAccount": "*",
+          "assumeRoleAction": "*"
+        },
+        "managedPolicies": [
+          {
+            "managedPolicyArn": "*"
+          }
+        ]
+      }
+    }
+  ],
+  "/CognitoStack/SigninFn/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "SigninFnBC3BA31F"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...new NodejsFunction in aws-cdk-lib...",
+        "authFn (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\lib\\cognito-stack.ts:38:7)",
+        "new CognitoStack (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\lib\\cognito-stack.ts:61:55)",
+        "<anonymous> (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\bin\\assignment.ts:9:22)",
+        "<anonymous> (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\bin\\assignment.ts:15:2)",
+        "...node internals, tsx..."
+      ]
+    }
+  ],
+  "/CognitoStack/SigninFn/LogGroup": [
+    {
+      "type": "aws:cdk:analytics:construct",
+      "data": {
+        "logGroupName": "*"
+      }
+    }
+  ],
+  "/CognitoStack/SignoutFn/ServiceRole": [
+    {
+      "type": "aws:cdk:analytics:construct",
+      "data": {
+        "assumedBy": {
+          "principalAccount": "*",
+          "assumeRoleAction": "*"
+        },
+        "managedPolicies": [
+          {
+            "managedPolicyArn": "*"
+          }
+        ]
+      }
+    }
+  ],
+  "/CognitoStack/SignoutFn/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "SignoutFnEA9B2CE3"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...new NodejsFunction in aws-cdk-lib...",
+        "authFn (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\lib\\cognito-stack.ts:38:7)",
+        "new CognitoStack (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\lib\\cognito-stack.ts:61:55)",
+        "<anonymous> (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\bin\\assignment.ts:9:22)",
+        "<anonymous> (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\bin\\assignment.ts:15:2)",
+        "...node internals, tsx..."
+      ]
+    }
+  ],
+  "/CognitoStack/SignoutFn/LogGroup": [
+    {
+      "type": "aws:cdk:analytics:construct",
+      "data": {
+        "logGroupName": "*"
+      }
+    }
+  ],
+  "/CognitoStack/CDKMetadata/Default": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "CDKMetadata"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib, node internals...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/CognitoStack/Publish/Output{\"Ref\":\"UserPool6BA7E5F2\"}": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "PublishOutputRefUserPool6BA7E5F24B752AC8"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib, node internals...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/CognitoStack/Publish/Output{\"Ref\":\"UserPoolAppClientDD0407EC\"}": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "PublishOutputRefUserPoolAppClientDD0407EC96B3FD3A"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib, node internals...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/CognitoStack/UserPool/AppClient/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "UserPoolAppClientDD0407EC"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...PropertyInjectable.addClient in aws-cdk-lib...",
+        "new CognitoStack (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\lib\\cognito-stack.ts:23:41)",
+        "<anonymous> (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\bin\\assignment.ts:9:22)",
+        "<anonymous> (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\bin\\assignment.ts:15:2)",
+        "...node internals, tsx..."
+      ]
+    }
+  ],
+  "/CognitoStack/AuthApi/Deployment/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "AuthApiDeploymentB62B2E4641c7645d3967ddb26475ac57a6df309e"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...new RestApi2 in aws-cdk-lib...",
+        "new CognitoStack (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\lib\\cognito-stack.ts:27:21)",
+        "<anonymous> (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\bin\\assignment.ts:9:22)",
+        "<anonymous> (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\bin\\assignment.ts:15:2)",
+        "...node internals..."
+      ]
+    }
+  ],
+  "/CognitoStack/AuthApi/DeploymentStage.prod/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "AuthApiDeploymentStageprodB0E4172A"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...new RestApi2 in aws-cdk-lib...",
+        "new CognitoStack (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\lib\\cognito-stack.ts:27:21)",
+        "<anonymous> (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\bin\\assignment.ts:9:22)",
+        "<anonymous> (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\bin\\assignment.ts:15:2)",
+        "...node internals..."
+      ]
+    }
+  ],
+  "/CognitoStack/AuthApi/Default/OPTIONS": [
+    {
+      "type": "aws:cdk:analytics:construct",
+      "data": {
+        "resource": "*",
+        "httpMethod": "*",
+        "integration": "*",
+        "options": {
+          "authorizer": {
+            "authorizerId": "*",
+            "authorizationType": "*"
+          },
+          "apiKeyRequired": false,
+          "authorizationType": "*",
+          "methodResponses": [
+            {
+              "statusCode": "*",
+              "responseParameters": "*"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "type": "aws:cdk:analytics:method",
+      "data": {
+        "addMethodResponse": [
+          {
+            "statusCode": "*",
+            "responseParameters": "*"
+          }
+        ]
+      }
+    }
+  ],
+  "/CognitoStack/AuthApi/Default/auth": [
+    {
+      "type": "aws:cdk:analytics:construct",
+      "data": {
+        "parent": "*",
+        "pathPart": "*"
+      }
+    }
+  ],
+  "/CognitoStack/SignupFn/ServiceRole/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "SignupFnServiceRoleB51FBFF1"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...new NodejsFunction in aws-cdk-lib...",
+        "authFn (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\lib\\cognito-stack.ts:38:7)",
+        "new CognitoStack (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\lib\\cognito-stack.ts:61:55)",
+        "<anonymous> (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\bin\\assignment.ts:9:22)",
+        "<anonymous> (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\bin\\assignment.ts:15:2)",
+        "...node internals..."
+      ]
+    }
+  ],
+  "/CognitoStack/SignupFn/Code/AssetBucket": [
+    {
+      "type": "aws:cdk:analytics:construct",
+      "data": "*"
+    }
+  ],
+  "/CognitoStack/SignupFn/LogGroup/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "SignupFnLogGroupB022FADC"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...new NodejsFunction in aws-cdk-lib...",
+        "authFn (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\lib\\cognito-stack.ts:38:7)",
+        "new CognitoStack (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\lib\\cognito-stack.ts:61:55)",
+        "<anonymous> (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\bin\\assignment.ts:9:22)",
+        "<anonymous> (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\bin\\assignment.ts:15:2)",
+        "...node internals..."
+      ]
+    }
+  ],
+  "/CognitoStack/ConfirmSignupFn/ServiceRole/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "ConfirmSignupFnServiceRoleB1622259"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...new NodejsFunction in aws-cdk-lib...",
+        "authFn (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\lib\\cognito-stack.ts:38:7)",
+        "new CognitoStack (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\lib\\cognito-stack.ts:61:55)",
+        "<anonymous> (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\bin\\assignment.ts:9:22)",
+        "<anonymous> (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\bin\\assignment.ts:15:2)",
+        "...node internals..."
+      ]
+    }
+  ],
+  "/CognitoStack/ConfirmSignupFn/Code/AssetBucket": [
+    {
+      "type": "aws:cdk:analytics:construct",
+      "data": "*"
+    }
+  ],
+  "/CognitoStack/ConfirmSignupFn/LogGroup/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "ConfirmSignupFnLogGroup688A869B"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...new NodejsFunction in aws-cdk-lib...",
+        "authFn (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\lib\\cognito-stack.ts:38:7)",
+        "new CognitoStack (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\lib\\cognito-stack.ts:61:55)",
+        "<anonymous> (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\bin\\assignment.ts:9:22)",
+        "<anonymous> (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\bin\\assignment.ts:15:2)",
+        "...node internals..."
+      ]
+    }
+  ],
+  "/CognitoStack/SigninFn/ServiceRole/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "SigninFnServiceRole084C9885"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...new NodejsFunction in aws-cdk-lib...",
+        "authFn (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\lib\\cognito-stack.ts:38:7)",
+        "new CognitoStack (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\lib\\cognito-stack.ts:61:55)",
+        "<anonymous> (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\bin\\assignment.ts:9:22)",
+        "<anonymous> (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\bin\\assignment.ts:15:2)",
+        "...node internals..."
+      ]
+    }
+  ],
+  "/CognitoStack/SigninFn/Code/AssetBucket": [
+    {
+      "type": "aws:cdk:analytics:construct",
+      "data": "*"
+    }
+  ],
+  "/CognitoStack/SigninFn/LogGroup/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "SigninFnLogGroup3B6BD4DC"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...new NodejsFunction in aws-cdk-lib...",
+        "authFn (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\lib\\cognito-stack.ts:38:7)",
+        "new CognitoStack (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\lib\\cognito-stack.ts:61:55)",
+        "<anonymous> (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\bin\\assignment.ts:9:22)",
+        "<anonymous> (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\bin\\assignment.ts:15:2)",
+        "...node internals..."
+      ]
+    }
+  ],
+  "/CognitoStack/SignoutFn/ServiceRole/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "SignoutFnServiceRole3AF7B732"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...new NodejsFunction in aws-cdk-lib...",
+        "authFn (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\lib\\cognito-stack.ts:38:7)",
+        "new CognitoStack (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\lib\\cognito-stack.ts:61:55)",
+        "<anonymous> (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\bin\\assignment.ts:9:22)",
+        "<anonymous> (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\bin\\assignment.ts:15:2)",
+        "...node internals..."
+      ]
+    }
+  ],
+  "/CognitoStack/SignoutFn/Code/AssetBucket": [
+    {
+      "type": "aws:cdk:analytics:construct",
+      "data": "*"
+    }
+  ],
+  "/CognitoStack/SignoutFn/LogGroup/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "SignoutFnLogGroupF24151B9"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...new NodejsFunction in aws-cdk-lib...",
+        "authFn (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\lib\\cognito-stack.ts:38:7)",
+        "new CognitoStack (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\lib\\cognito-stack.ts:61:55)",
+        "<anonymous> (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\bin\\assignment.ts:9:22)",
+        "<anonymous> (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\bin\\assignment.ts:15:2)",
+        "...node internals..."
+      ]
+    }
+  ],
+  "/CognitoStack/AuthApi/Default/OPTIONS/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "AuthApiOPTIONS3BD43A91"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...new RestApi2 in aws-cdk-lib...",
+        "new CognitoStack (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\lib\\cognito-stack.ts:27:21)"
+      ]
+    }
+  ],
+  "/CognitoStack/AuthApi/Default/auth/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "AuthApiauthCDCDCAC9"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...RootResource.addResource in aws-cdk-lib...",
+        "new CognitoStack (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\lib\\cognito-stack.ts:35:39)",
+        "<anonymous> (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\bin\\assignment.ts:9:22)",
+        "<anonymous> (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\bin\\assignment.ts:15:2)",
+        "...node internals, tsx..."
+      ]
+    }
+  ],
+  "/CognitoStack/AuthApi/Default/auth/OPTIONS": [
+    {
+      "type": "aws:cdk:analytics:construct",
+      "data": {
+        "resource": "*",
+        "httpMethod": "*",
+        "integration": "*",
+        "options": {
+          "authorizer": {
+            "authorizerId": "*",
+            "authorizationType": "*"
+          },
+          "apiKeyRequired": false,
+          "authorizationType": "*",
+          "methodResponses": [
+            {
+              "statusCode": "*",
+              "responseParameters": "*"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "type": "aws:cdk:analytics:method",
+      "data": {
+        "addMethodResponse": [
+          {
+            "statusCode": "*",
+            "responseParameters": "*"
+          }
+        ]
+      }
+    }
+  ],
+  "/CognitoStack/AuthApi/Default/auth/signup": [
+    {
+      "type": "aws:cdk:analytics:construct",
+      "data": {
+        "parent": "*",
+        "pathPart": "*"
+      }
+    }
+  ],
+  "/CognitoStack/AuthApi/Default/auth/confirm_signup": [
+    {
+      "type": "aws:cdk:analytics:construct",
+      "data": {
+        "parent": "*",
+        "pathPart": "*"
+      }
+    }
+  ],
+  "/CognitoStack/AuthApi/Default/auth/signin": [
+    {
+      "type": "aws:cdk:analytics:construct",
+      "data": {
+        "parent": "*",
+        "pathPart": "*"
+      }
+    }
+  ],
+  "/CognitoStack/AuthApi/Default/auth/signout": [
+    {
+      "type": "aws:cdk:analytics:construct",
+      "data": {
+        "parent": "*",
+        "pathPart": "*"
+      }
+    }
+  ],
+  "/CognitoStack/AuthApi/Default/auth/OPTIONS/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "AuthApiauthOPTIONSFFC8BF39"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...RootResource.addResource in aws-cdk-lib...",
+        "new CognitoStack (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\lib\\cognito-stack.ts:35:39)",
+        "<anonymous> (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\bin\\assignment.ts:9:22)"
+      ]
+    }
+  ],
+  "/CognitoStack/AuthApi/Default/auth/signup/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "AuthApiauthsignupC1AC5BA1"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...PropertyInjectable.addResource in aws-cdk-lib...",
+        "new CognitoStack (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\lib\\cognito-stack.ts:60:10)",
+        "<anonymous> (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\bin\\assignment.ts:9:22)",
+        "<anonymous> (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\bin\\assignment.ts:15:2)",
+        "...node internals, tsx..."
+      ]
+    }
+  ],
+  "/CognitoStack/AuthApi/Default/auth/signup/OPTIONS": [
+    {
+      "type": "aws:cdk:analytics:construct",
+      "data": {
+        "resource": "*",
+        "httpMethod": "*",
+        "integration": "*",
+        "options": {
+          "authorizer": {
+            "authorizerId": "*",
+            "authorizationType": "*"
+          },
+          "apiKeyRequired": false,
+          "authorizationType": "*",
+          "methodResponses": [
+            {
+              "statusCode": "*",
+              "responseParameters": "*"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "type": "aws:cdk:analytics:method",
+      "data": {
+        "addMethodResponse": [
+          {
+            "statusCode": "*",
+            "responseParameters": "*"
+          }
+        ]
+      }
+    }
+  ],
+  "/CognitoStack/AuthApi/Default/auth/signup/POST": [
+    {
+      "type": "aws:cdk:analytics:construct",
+      "data": {
+        "resource": "*",
+        "httpMethod": "*",
+        "integration": "*",
+        "options": "*"
+      }
+    }
+  ],
+  "/CognitoStack/AuthApi/Default/auth/confirm_signup/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "AuthApiauthconfirmsignupC43BE890"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...PropertyInjectable.addResource in aws-cdk-lib...",
+        "new CognitoStack (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\lib\\cognito-stack.ts:60:10)",
+        "<anonymous> (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\bin\\assignment.ts:9:22)",
+        "<anonymous> (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\bin\\assignment.ts:15:2)",
+        "...node internals, tsx..."
+      ]
+    }
+  ],
+  "/CognitoStack/AuthApi/Default/auth/confirm_signup/OPTIONS": [
+    {
+      "type": "aws:cdk:analytics:construct",
+      "data": {
+        "resource": "*",
+        "httpMethod": "*",
+        "integration": "*",
+        "options": {
+          "authorizer": {
+            "authorizerId": "*",
+            "authorizationType": "*"
+          },
+          "apiKeyRequired": false,
+          "authorizationType": "*",
+          "methodResponses": [
+            {
+              "statusCode": "*",
+              "responseParameters": "*"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "type": "aws:cdk:analytics:method",
+      "data": {
+        "addMethodResponse": [
+          {
+            "statusCode": "*",
+            "responseParameters": "*"
+          }
+        ]
+      }
+    }
+  ],
+  "/CognitoStack/AuthApi/Default/auth/confirm_signup/POST": [
+    {
+      "type": "aws:cdk:analytics:construct",
+      "data": {
+        "resource": "*",
+        "httpMethod": "*",
+        "integration": "*",
+        "options": "*"
+      }
+    }
+  ],
+  "/CognitoStack/AuthApi/Default/auth/signin/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "AuthApiauthsignin291056A9"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...PropertyInjectable.addResource in aws-cdk-lib...",
+        "new CognitoStack (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\lib\\cognito-stack.ts:60:10)",
+        "<anonymous> (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\bin\\assignment.ts:9:22)",
+        "<anonymous> (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\bin\\assignment.ts:15:2)",
+        "...node internals, tsx..."
+      ]
+    }
+  ],
+  "/CognitoStack/AuthApi/Default/auth/signin/OPTIONS": [
+    {
+      "type": "aws:cdk:analytics:construct",
+      "data": {
+        "resource": "*",
+        "httpMethod": "*",
+        "integration": "*",
+        "options": {
+          "authorizer": {
+            "authorizerId": "*",
+            "authorizationType": "*"
+          },
+          "apiKeyRequired": false,
+          "authorizationType": "*",
+          "methodResponses": [
+            {
+              "statusCode": "*",
+              "responseParameters": "*"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "type": "aws:cdk:analytics:method",
+      "data": {
+        "addMethodResponse": [
+          {
+            "statusCode": "*",
+            "responseParameters": "*"
+          }
+        ]
+      }
+    }
+  ],
+  "/CognitoStack/AuthApi/Default/auth/signin/POST": [
+    {
+      "type": "aws:cdk:analytics:construct",
+      "data": {
+        "resource": "*",
+        "httpMethod": "*",
+        "integration": "*",
+        "options": "*"
+      }
+    }
+  ],
+  "/CognitoStack/AuthApi/Default/auth/signout/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "AuthApiauthsignout97444627"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...PropertyInjectable.addResource in aws-cdk-lib...",
+        "new CognitoStack (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\lib\\cognito-stack.ts:60:10)",
+        "<anonymous> (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\bin\\assignment.ts:9:22)",
+        "<anonymous> (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\bin\\assignment.ts:15:2)",
+        "...node internals, tsx..."
+      ]
+    }
+  ],
+  "/CognitoStack/AuthApi/Default/auth/signout/OPTIONS": [
+    {
+      "type": "aws:cdk:analytics:construct",
+      "data": {
+        "resource": "*",
+        "httpMethod": "*",
+        "integration": "*",
+        "options": {
+          "authorizer": {
+            "authorizerId": "*",
+            "authorizationType": "*"
+          },
+          "apiKeyRequired": false,
+          "authorizationType": "*",
+          "methodResponses": [
+            {
+              "statusCode": "*",
+              "responseParameters": "*"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "type": "aws:cdk:analytics:method",
+      "data": {
+        "addMethodResponse": [
+          {
+            "statusCode": "*",
+            "responseParameters": "*"
+          }
+        ]
+      }
+    }
+  ],
+  "/CognitoStack/AuthApi/Default/auth/signout/POST": [
+    {
+      "type": "aws:cdk:analytics:construct",
+      "data": {
+        "resource": "*",
+        "httpMethod": "*",
+        "integration": "*",
+        "options": "*"
+      }
+    }
+  ],
+  "/CognitoStack/AuthApi/Default/auth/signup/OPTIONS/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "AuthApiauthsignupOPTIONS40C238B5"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...PropertyInjectable.addResource in aws-cdk-lib...",
+        "new CognitoStack (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\lib\\cognito-stack.ts:60:10)",
+        "<anonymous> (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\bin\\assignment.ts:9:22)"
+      ]
+    }
+  ],
+  "/CognitoStack/AuthApi/Default/auth/signup/POST/ApiPermission.CognitoStackAuthApiCCAE2ED5.POST..auth.signup": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "AuthApiauthsignupPOSTApiPermissionCognitoStackAuthApiCCAE2ED5POSTauthsignupAB10B014"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...PropertyInjectable.addMethod in aws-cdk-lib...",
+        "new CognitoStack (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\lib\\cognito-stack.ts:61:10)",
+        "<anonymous> (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\bin\\assignment.ts:9:22)",
+        "<anonymous> (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\bin\\assignment.ts:15:2)",
+        "...node internals..."
+      ]
+    }
+  ],
+  "/CognitoStack/AuthApi/Default/auth/signup/POST/ApiPermission.Test.CognitoStackAuthApiCCAE2ED5.POST..auth.signup": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "AuthApiauthsignupPOSTApiPermissionTestCognitoStackAuthApiCCAE2ED5POSTauthsignup82C41B0B"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...PropertyInjectable.addMethod in aws-cdk-lib...",
+        "new CognitoStack (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\lib\\cognito-stack.ts:61:10)",
+        "<anonymous> (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\bin\\assignment.ts:9:22)",
+        "<anonymous> (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\bin\\assignment.ts:15:2)",
+        "...node internals..."
+      ]
+    }
+  ],
+  "/CognitoStack/AuthApi/Default/auth/signup/POST/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "AuthApiauthsignupPOST854AE523"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...PropertyInjectable.addMethod in aws-cdk-lib...",
+        "new CognitoStack (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\lib\\cognito-stack.ts:61:10)",
+        "<anonymous> (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\bin\\assignment.ts:9:22)",
+        "<anonymous> (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\bin\\assignment.ts:15:2)",
+        "...node internals, tsx..."
+      ]
+    }
+  ],
+  "/CognitoStack/AuthApi/Default/auth/confirm_signup/OPTIONS/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "AuthApiauthconfirmsignupOPTIONS38277420"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...PropertyInjectable.addResource in aws-cdk-lib...",
+        "new CognitoStack (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\lib\\cognito-stack.ts:60:10)",
+        "<anonymous> (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\bin\\assignment.ts:9:22)"
+      ]
+    }
+  ],
+  "/CognitoStack/AuthApi/Default/auth/confirm_signup/POST/ApiPermission.CognitoStackAuthApiCCAE2ED5.POST..auth.confirm_signup": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "AuthApiauthconfirmsignupPOSTApiPermissionCognitoStackAuthApiCCAE2ED5POSTauthconfirmsignup722A152C"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...PropertyInjectable.addMethod in aws-cdk-lib...",
+        "new CognitoStack (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\lib\\cognito-stack.ts:61:10)",
+        "<anonymous> (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\bin\\assignment.ts:9:22)",
+        "<anonymous> (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\bin\\assignment.ts:15:2)",
+        "...node internals..."
+      ]
+    }
+  ],
+  "/CognitoStack/AuthApi/Default/auth/confirm_signup/POST/ApiPermission.Test.CognitoStackAuthApiCCAE2ED5.POST..auth.confirm_signup": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "AuthApiauthconfirmsignupPOSTApiPermissionTestCognitoStackAuthApiCCAE2ED5POSTauthconfirmsignupBF3ED618"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...PropertyInjectable.addMethod in aws-cdk-lib...",
+        "new CognitoStack (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\lib\\cognito-stack.ts:61:10)",
+        "<anonymous> (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\bin\\assignment.ts:9:22)",
+        "<anonymous> (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\bin\\assignment.ts:15:2)",
+        "...node internals..."
+      ]
+    }
+  ],
+  "/CognitoStack/AuthApi/Default/auth/confirm_signup/POST/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "AuthApiauthconfirmsignupPOST4A56CB4C"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...PropertyInjectable.addMethod in aws-cdk-lib...",
+        "new CognitoStack (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\lib\\cognito-stack.ts:61:10)",
+        "<anonymous> (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\bin\\assignment.ts:9:22)",
+        "<anonymous> (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\bin\\assignment.ts:15:2)",
+        "...node internals, tsx..."
+      ]
+    }
+  ],
+  "/CognitoStack/AuthApi/Default/auth/signin/OPTIONS/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "AuthApiauthsigninOPTIONSCAF55F0A"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...PropertyInjectable.addResource in aws-cdk-lib...",
+        "new CognitoStack (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\lib\\cognito-stack.ts:60:10)",
+        "<anonymous> (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\bin\\assignment.ts:9:22)"
+      ]
+    }
+  ],
+  "/CognitoStack/AuthApi/Default/auth/signin/POST/ApiPermission.CognitoStackAuthApiCCAE2ED5.POST..auth.signin": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "AuthApiauthsigninPOSTApiPermissionCognitoStackAuthApiCCAE2ED5POSTauthsigninE88C9307"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...PropertyInjectable.addMethod in aws-cdk-lib...",
+        "new CognitoStack (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\lib\\cognito-stack.ts:61:10)",
+        "<anonymous> (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\bin\\assignment.ts:9:22)",
+        "<anonymous> (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\bin\\assignment.ts:15:2)",
+        "...node internals..."
+      ]
+    }
+  ],
+  "/CognitoStack/AuthApi/Default/auth/signin/POST/ApiPermission.Test.CognitoStackAuthApiCCAE2ED5.POST..auth.signin": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "AuthApiauthsigninPOSTApiPermissionTestCognitoStackAuthApiCCAE2ED5POSTauthsigninB2541F8F"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...PropertyInjectable.addMethod in aws-cdk-lib...",
+        "new CognitoStack (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\lib\\cognito-stack.ts:61:10)",
+        "<anonymous> (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\bin\\assignment.ts:9:22)",
+        "<anonymous> (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\bin\\assignment.ts:15:2)",
+        "...node internals..."
+      ]
+    }
+  ],
+  "/CognitoStack/AuthApi/Default/auth/signin/POST/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "AuthApiauthsigninPOSTB415DC06"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...PropertyInjectable.addMethod in aws-cdk-lib...",
+        "new CognitoStack (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\lib\\cognito-stack.ts:61:10)",
+        "<anonymous> (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\bin\\assignment.ts:9:22)",
+        "<anonymous> (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\bin\\assignment.ts:15:2)",
+        "...node internals, tsx..."
+      ]
+    }
+  ],
+  "/CognitoStack/AuthApi/Default/auth/signout/OPTIONS/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "AuthApiauthsignoutOPTIONS7304DDFE"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...PropertyInjectable.addResource in aws-cdk-lib...",
+        "new CognitoStack (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\lib\\cognito-stack.ts:60:10)",
+        "<anonymous> (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\bin\\assignment.ts:9:22)"
+      ]
+    }
+  ],
+  "/CognitoStack/AuthApi/Default/auth/signout/POST/ApiPermission.CognitoStackAuthApiCCAE2ED5.POST..auth.signout": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "AuthApiauthsignoutPOSTApiPermissionCognitoStackAuthApiCCAE2ED5POSTauthsignoutEDF8D33E"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...PropertyInjectable.addMethod in aws-cdk-lib...",
+        "new CognitoStack (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\lib\\cognito-stack.ts:61:10)",
+        "<anonymous> (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\bin\\assignment.ts:9:22)",
+        "<anonymous> (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\bin\\assignment.ts:15:2)",
+        "...node internals..."
+      ]
+    }
+  ],
+  "/CognitoStack/AuthApi/Default/auth/signout/POST/ApiPermission.Test.CognitoStackAuthApiCCAE2ED5.POST..auth.signout": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "AuthApiauthsignoutPOSTApiPermissionTestCognitoStackAuthApiCCAE2ED5POSTauthsignoutA316F207"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...PropertyInjectable.addMethod in aws-cdk-lib...",
+        "new CognitoStack (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\lib\\cognito-stack.ts:61:10)",
+        "<anonymous> (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\bin\\assignment.ts:9:22)",
+        "<anonymous> (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\bin\\assignment.ts:15:2)",
+        "...node internals..."
+      ]
+    }
+  ],
+  "/CognitoStack/AuthApi/Default/auth/signout/POST/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "AuthApiauthsignoutPOSTC420506A"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...PropertyInjectable.addMethod in aws-cdk-lib...",
+        "new CognitoStack (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\lib\\cognito-stack.ts:61:10)",
+        "<anonymous> (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\bin\\assignment.ts:9:22)",
+        "<anonymous> (C:\\Users\\SLLuser\\OneDrive - South East Technological University\\YEAR 4\\Cloud App Dev\\CloudAppAssignmentREDO\\bin\\assignment.ts:15:2)",
+        "...node internals, tsx..."
+      ]
+    }
+  ]
+}

@@ -50,6 +50,7 @@ export class AppApiStack extends cdk.Stack {
 
     table.grantReadData(getMovieRolesFn);
     table.grantReadData(getActorFn);
+    table.grantReadWriteData(addMovieRoleFn);
 
     // Sample data, written once when the stack is created.
     const items = seedItems();
@@ -87,16 +88,25 @@ export class AppApiStack extends cdk.Stack {
       },
     });
 
+    const adminApiKey = api.addApiKey('AdminApiKey');
+    const usagePlan = api.addUsagePlan('AdminUsagePlan', {
+      name: 'AdminUsagePlan',
+    });
+    usagePlan.addApiStage({ stage: api.deploymentStage });
+    usagePlan.addApiKey(adminApiKey);
+    new cdk.CfnOutput(this, 'AdminApiKey', {
+      value: adminApiKey.keyId,
+    });
     const userAuth: apig.MethodOptions = {
       authorizer: userAuthorizer,
       authorizationType: apig.AuthorizationType.CUSTOM,
     };
     // Routes
     const moviesResource = api.root.addResource('movies');
-
+    const addRoleResource = moviesResource.addResource('roles');
     const movieRolesResource = moviesResource.addResource('{movieID}').addResource('roles');
-    movieRolesResource.addMethod('GET', new apig.LambdaIntegration(getMovieRolesFn) );
-
+    movieRolesResource.addMethod('GET', new apig.LambdaIntegration(getMovieRolesFn), userAuth );
+    addRoleResource.addMethod('POST', new apig.LambdaIntegration(addMovieRoleFn), {apiKeyRequired: true});
     api.root
       .addResource('actors')
       .addResource('{actorID}')
