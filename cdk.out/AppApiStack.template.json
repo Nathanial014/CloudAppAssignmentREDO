@@ -116,7 +116,7 @@
     ],
     "Code": {
      "S3Bucket": "cdk-hnb659fds-assets-449314788202-eu-west-1",
-     "S3Key": "7a872f53f189e20ac29f71a0819a073c932cfed3ae4ececa115ac31cf1d434a0.zip"
+     "S3Key": "e76087b4f39319c697ab62ca00212cda7032881fc55e9e364f6c95449ad195e0.zip"
     },
     "Environment": {
      "Variables": {
@@ -143,7 +143,7 @@
    ],
    "Metadata": {
     "aws:cdk:path": "AppApiStack/GetMovieRolesFn/Resource",
-    "aws:asset:path": "asset.7a872f53f189e20ac29f71a0819a073c932cfed3ae4ececa115ac31cf1d434a0",
+    "aws:asset:path": "asset.e76087b4f39319c697ab62ca00212cda7032881fc55e9e364f6c95449ad195e0",
     "aws:asset:is-bundled": true,
     "aws:asset:property": "Code"
    }
@@ -250,7 +250,7 @@
     ],
     "Code": {
      "S3Bucket": "cdk-hnb659fds-assets-449314788202-eu-west-1",
-     "S3Key": "088cd26b31fdf92ae1528dfe3295bfc20241ecb15f0e7aea8ed10007eaae7166.zip"
+     "S3Key": "e6e055517ed2c24f389b4f7cb8e0375c7fe597f65f27e75da528f887eb137743.zip"
     },
     "Environment": {
      "Variables": {
@@ -277,7 +277,7 @@
    ],
    "Metadata": {
     "aws:cdk:path": "AppApiStack/GetActorFn/Resource",
-    "aws:asset:path": "asset.088cd26b31fdf92ae1528dfe3295bfc20241ecb15f0e7aea8ed10007eaae7166",
+    "aws:asset:path": "asset.e6e055517ed2c24f389b4f7cb8e0375c7fe597f65f27e75da528f887eb137743",
     "aws:asset:is-bundled": true,
     "aws:asset:property": "Code"
    }
@@ -388,7 +388,7 @@
     ],
     "Code": {
      "S3Bucket": "cdk-hnb659fds-assets-449314788202-eu-west-1",
-     "S3Key": "d4f3ca126e74e7cbd58b6f3a759d6b8646ea13736274e31951565c69567c4082.zip"
+     "S3Key": "8edd0f4438d4b982513018d68e3e70d97528b23e512bba1ba9d44469cf47d2dc.zip"
     },
     "Environment": {
      "Variables": {
@@ -415,7 +415,7 @@
    ],
    "Metadata": {
     "aws:cdk:path": "AppApiStack/AddMovieRoleFn/Resource",
-    "aws:asset:path": "asset.d4f3ca126e74e7cbd58b6f3a759d6b8646ea13736274e31951565c69567c4082",
+    "aws:asset:path": "asset.8edd0f4438d4b982513018d68e3e70d97528b23e512bba1ba9d44469cf47d2dc",
     "aws:asset:is-bundled": true,
     "aws:asset:property": "Code"
    }
