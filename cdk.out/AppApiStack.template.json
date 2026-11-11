@@ -805,7 +805,7 @@
     "aws:cdk:path": "AppApiStack/AppApi/Resource"
    }
   },
-  "AppApiDeployment7658F31317af28f6a9383ccc2f4c222f2a416436": {
+  "AppApiDeployment7658F3137dcaa1874591f712fac035c26b7d7708": {
    "Type": "AWS::ApiGateway::Deployment",
    "Properties": {
     "Description": "Movie cast API",
@@ -841,7 +841,7 @@
    "Type": "AWS::ApiGateway::Stage",
    "Properties": {
     "DeploymentId": {
-     "Ref": "AppApiDeployment7658F31317af28f6a9383ccc2f4c222f2a416436"
+     "Ref": "AppApiDeployment7658F3137dcaa1874591f712fac035c26b7d7708"
     },
     "RestApiId": {
      "Ref": "AppApiE7BADA01"
@@ -1086,10 +1086,8 @@
   "AppApimoviesrolesPOST97E4CE12": {
    "Type": "AWS::ApiGateway::Method",
    "Properties": {
-    "AuthorizationType": "CUSTOM",
-    "AuthorizerId": {
-     "Ref": "UserAuthorizerF623B8DE"
-    },
+    "ApiKeyRequired": true,
+    "AuthorizationType": "NONE",
     "HttpMethod": "POST",
     "Integration": {
      "IntegrationHttpMethod": "POST",
@@ -1560,10 +1558,64 @@
     "aws:cdk:path": "AppApiStack/AppApi/Default/actors/{actorID}/GET/Resource"
    }
   },
+  "AppApiAdminApiKeyBAE45DA0": {
+   "Type": "AWS::ApiGateway::ApiKey",
+   "Properties": {
+    "Enabled": true,
+    "StageKeys": [
+     {
+      "RestApiId": {
+       "Ref": "AppApiE7BADA01"
+      },
+      "StageName": {
+       "Ref": "AppApiDeploymentStagedev6C133D41"
+      }
+     }
+    ]
+   },
+   "Metadata": {
+    "aws:cdk:path": "AppApiStack/AppApi/AdminApiKey/Resource"
+   }
+  },
+  "AppApiAdminUsagePlan200C3E28": {
+   "Type": "AWS::ApiGateway::UsagePlan",
+   "Properties": {
+    "ApiStages": [
+     {
+      "ApiId": {
+       "Ref": "AppApiE7BADA01"
+      },
+      "Stage": {
+       "Ref": "AppApiDeploymentStagedev6C133D41"
+      },
+      "Throttle": {}
+     }
+    ],
+    "UsagePlanName": "AdminUsagePlan"
+   },
+   "Metadata": {
+    "aws:cdk:path": "AppApiStack/AppApi/AdminUsagePlan/Resource"
+   }
+  },
+  "AppApiAdminUsagePlanUsagePlanKeyResourceAppApiStackAppApiAdminApiKey1C29DF357AED4836": {
+   "Type": "AWS::ApiGateway::UsagePlanKey",
+   "Properties": {
+    "KeyId": {
+     "Ref": "AppApiAdminApiKeyBAE45DA0"
+    },
+    "KeyType": "API_KEY",
+    "UsagePlanId": {
+     "Ref": "AppApiAdminUsagePlan200C3E28"
+    }
+   },
+   "Metadata": {
+    "aws:cdk:path": "AppApiStack/AppApi/AdminUsagePlan/UsagePlanKeyResource:AppApiStackAppApiAdminApiKey1C29DF35"
+   }
+  },
   "CDKMetadata": {
    "Type": "AWS::CDK::Metadata",
    "Properties": {
-    "Analytics": "v2:deflate64:H4sIAAAAAAAA/+1Z3W/bNhD/W8rHgtFa92GY3xyvy4KmiWEbezGM4CyeZSYUqfEjhirofy9IUZLdxkEGtEUyCEgg8+54X7z76WiPktHvo+TdG9ibs5Tdnwm+SaqFhfSewt7cVqyUkCu2SaolbAT+M1pVpABtueVKfsKSjCsiIUcyJm8JJbYs/McFqSkxStunJTZcCC6zyNGYqwcQMyV4WpIxYWisViWp13S6lRdCbUAEJ2oqIN8wuJWK4Z1JrsPjLydT79SqIqDTHbeYWqdbs9pJyzsnUFpdtg7xHJWzcZVjrnS54F960QeulcxRtiKpYi1zB5IJ1GFV06r5+6nmf7b+Ibz/d3i/Isg15ZAn1VwJ9M1ojMuRnQcgKDSXKS9ATNJUuc7rRsZvmIQejj6THCRkyAIkcDRkvKqOaOVER9l1iIqxpZq1JlogWVWRay2ku0spuMSOR96SZzCf1jsEOAT47AB/oamTCQkvVK+fNnRP7TYsled8l9jvyYwtLFj0fW8OcvkY+bXrr4g5oLVAfkLB870I59AcQU3Nh1swBq1JJv5BzYfk3KX3aM/BYDihb/7XcQxKqulWttNP0Ig658b41YLLTKBV8mA6co6zWGmNgpnThTJ4Ct+P4V8H/5vdKrvQyhVxuY0mrvth76FI+08Lt5EY83fyRXX8Hopp/owWGFho8katdrh+nBXTehDtiwpnXVOhMpNUV9HWqurMdnZ8ZD+cGEqttVpTKHgGFvdQJtUc/3Vo7MTZndL8C+pQnF6+J9G5lyj4qvJjeap50QGTHwBYobi0y7IIqETmHy8ub64nV2RNCcNCqPImyBsPesZChgfeEoZbcMJOlTYzjVvBs509kAch1P5vBIa6TXYgfUa7U+yINNXIUFoOwpCxr5JIv9E84zJ2bkS/Jh76Z3DPt/CjoUHBu9uJBS578SMcWKorlfEUxCU7QpKB/lrooSj606ULX6WhJFpSrINvyjfsC8K+RZTTKbZ4vaZNia4qoiOrRQhri4YXCVxazDQcFJ46aICuC49Xl+3ulhT2L5v7degsKPgnLH1/c42MjLcgDJ6S98jvXZqjKZQ0cb7w7z1npj266ciegYYcbduU9bruEflAy39VQodkDcl68cl6KjnDqQwl/AqSNZTwSzyVIVk/qoTDYNbo7Saz5reLfpYrwO5moPvvZl8gt72thADqmoYvB/zAyWVGU2esym/bjJpksjfTQGt30ONld7Xr+Vt542zhbE39zynJnfntYTRK3v+RvHtzZzg/ixfYZN48vwJTILq5MRoAAA=="
+    "Analytics": "v2:deflate64:H4sIAAAAAAAA/+0ZXW/bNvC3lI8Fo7XuwzC/Od6WBUkTw/b2YhjBWTzLTChS40cCVdB/L0hRkpXGQQqsRTIYsCHz7njfdzzKo2T06yj58A4ezEnK7k4E3yTVwkJ6R+HB3FSslJArtkmqJWwE/jNaVaQAbbnlSl5gScYVkZAjGZP3hBJbFv7ngtSUGKXt8xQbLgSXWcRozNU9iJkSPC3JmDA0VquS1Gs63cozoTYgghI1FZBvGNxIxfDWJFfh8aeTqVdqVRHQ6Y5bTK3TrVjtpOWdEiitLluFeI7K2bjKMVe6XPAvPek910rmKFuSVLEWuQPJBOqwqmnVfH6o+B/N/2je/9u8n2HkmnLIk2quBPpiNMblyE5DIyg0lykvQEzSVLlO64bGb5iEGo46kxwkZMhCS+BoyHhVDWDlREfadbCKsaWatSLaRrKqItZaSHfnUnCJHY68Jy9APs/3aODRwBcb+BNFHXRIOFA9f9rAPbTbsFQe841jvwUztrBg0de92fPlU+C3zr8iZg/WNvIDDF6uRYhDE4Kamk83YAxak0z8g5pPyalL79CegsEQoUffdRyDkmq6le30EziizrkxfrXgMhNoldybjpzjLGZaw2DmdKEMHurvw/avg/7NbpWdaeWKuNxGEVf9sHdfpP2vhdtIjP47eFANz6Ho5s9ogYGFxm/Uaofrp1HRrXvWvipz1jUVKjNJdRllrapObCfHW/afA0OqtVJrCgXPwOIDlEk1x38dGjtxdqc0/4I6JKen70F07ikKvqr8WJ5qXnSNyQ8ArFBc2mVZhK5E5n+cnV9fTS7JmhKGhVDldaA3vukZCxnuaUsYbsEJO1XazDRuBc92do8ehFAPfyEw1K2zA+gz2p1iA9BUI0NpOQhDxj5LIvxa84zLWLmx+zX20N+Der6EnzQNCt7dTixw2ZMP+sBSXaqMpyDO2aCTHOGvDR6C30eRLnw2htC3oBjvR2ka9gViXwrK6RTbvrymTSquKqIjqu0E1hYNLgK4tJhp2EswtZfoXbUNV+ft7hYU9i+be3SoICj4BZa+jrlGRsZbEAYP0fsO71WaoymUNHGO8OebM9O+i+mInoGGHG1bfPW67jvvHpfvZUKPzjo663U665HJ/hypjyE45usbcNZzzjlG5ZjCb8BZz6ZwmMIavt0Y1vwh0Q9uBdjdDHT/wvUVYtsrSDCATkLEV/FqZAZvBxoc/dtAhjMB/kYrYXg7nhQ8DKb7E25HP1hcYFnXNLxe8Du4zGjqjFX5TRs+k0wezDTAOvWGy+5y2OO38trZwtma+j9kklvzy/1olHz8Lfnw7tZwfhKvwMm8eX4Fd8twWnMaAAA="
    },
    "Metadata": {
     "aws:cdk:path": "AppApiStack/CDKMetadata/Default"
@@ -1591,6 +1643,11 @@
       "/"
      ]
     ]
+   }
+  },
+  "AdminApiKey": {
+   "Value": {
+    "Ref": "AppApiAdminApiKeyBAE45DA0"
    }
   }
  },
